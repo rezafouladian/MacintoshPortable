@@ -7,6 +7,7 @@ Table of contents
     1. [1.2V Reference](#12v-reference)
     1. [A/D Line](#ad-line)
 1. [Powered-on Testing](#powered-on-testing)
+    1. [Test Setup](#test-setup-1)
     1. [Powered-on +5V](#powered-on-5v)
     1. [Disk +12V](#disk-12v)
     1. [Disk +5V](#disk-5v)
@@ -52,6 +53,7 @@ This voltage should be sufficient to run most systems, but you can increase the 
 ## 1.2V Reference
 ## A/D Line
 # Powered-on Testing
+## Test Setup
 ## Powered-on +5V
 ## Disk +12V
 ## Disk +5V
@@ -61,6 +63,7 @@ This voltage should be sufficient to run most systems, but you can increase the 
 ## Low Voltage Cutoff
 ## External Video +5V
 ## Battery Compartment/Switch
+With the battery cover off and the switch un-depressed, 
 # Troubleshooting
 ## Always-on +5V Troubleshooting
 ### No voltage
