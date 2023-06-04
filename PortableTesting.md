@@ -39,6 +39,7 @@ This is still heavily a work in progress, so many sections are completely empty.
 - Finish most of the document
 - Pictures and diagrams
 - Seperate M5126 section?
+- Make things look better
 
 
 ## Before you begin
@@ -58,9 +59,9 @@ You will need the following:
 
 #### Using a 4-pin connector
 The easiest way is to use a 4-pin power connector like the ones found on an ATX power supply. These are also commonly called "ATX 12V" or "CPU power" connectors.  
-You can cut one off an ATX power supply, or buy a 4-pin extender cable commonly avaiable on places like Amazon or computer stores.
+You can cut one off an ATX power supply, or buy a 4-pin extender cable commonly avaiable on places like Amazon, eBay, or other online and local computer stores.
 
--- Picture of 4 pin connector here
+<img src="images/4pin.jpg" width=30% alt="A 4-pin ATX CPU power cable with the wires cut.">
 
 #### Clipping on to the board
 
@@ -208,7 +209,7 @@ Appears as Bourns 4816P-E41-000 or Dale 112S0600
 
 Layout is an isolated resistor network.
 
-![The isolated resistor layout of a Bourns 4816P-1.](/images/4816P-1.png)
+<img src="images/4816P-1.png" width=30% alt="The isolated resistor layout of a Bourns 4816P-1.">
 
 Values:  
 R1 430k  
