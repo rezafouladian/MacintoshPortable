@@ -40,6 +40,7 @@ This is still heavily a work in progress, so many sections are completely empty.
 - Pictures and diagrams
 - Seperate M5126 section?
 - Make things look better
+- Interactivity
 
 
 ## Before you begin
