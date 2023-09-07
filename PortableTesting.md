@@ -221,3 +221,46 @@ R5 320k
 R6 100k  
 R7 100k  
 R8 100k
+
+## Full Component List
+
+| Designator | Location | Part | Description | Schematic Page |
+| --- | --- | --- | --- | --- |
+| C19 | | | Capacitor for LT1054 on hybrid | 14 |
+| R21 | | 100k Ω 1206 Resistor | +12V on/off pull-up | 14 |
+| R24 | | 301k Ω 1206 Resistor | SCSI +5V voltage divider |
+| R25 | | 100k Ω 1206 Resistor | SCSI +5V voltage divider |
+| R50 | | 10k Ω 1206 Resistor | /IPL1 pull-up | 3 |
+| R94 | | 100k Ω 1206 Resistor | /LW pull-up | 5 |
+| R95 | | 100k Ω 1206 Resistor | Permanent RAM /CS15 pull-up | 15 |
+| R112 | | 100k Ω 1206 Resistor | /SLOT_LW pull-up | 5 |
+| R113 | | 100k Ω 1206 Resistor | /SLOT_UW pull-up | 5 |
+| R116 | | 100k Ω 1206 Resistor | /UW pull-up | 5 |
+| R120 | | 100k Ω 1206 Resistor | ROM /OE pull-up | 4 |
+| R129 | | 10k Ω 1206 Resistor | /BERR pull-up | 3 |
+| R130 | | 10k Ω 1206 Resistor | /BGACK pull-up | 3 |
+| R131 | | 10k Ω 1206 Resistor | /BR pull-up | 3 |
+| R135 | | 100k Ω 1206 Resistor | Video RAM /RW pull-up | 6 |
+| R136 | | 100k Ω 1206 Resistor | Video RAM /CS pull-up | 6 |
+| R138 | | 100k Ω 1206 Resistor | /IPL2 pull-down | 3 |
+| R160 | | 75k Ω 1206 Resistor | 1.2V reference to SCSI +5V OpAmp | 14 |
+| RP2 | | | Permanent RAM /CS pull-ups | 15 |
+| Q1 | | IRF9Z30 | | |
+| Q2 | | IRFR9020 | Serial +5V on/off | 8 |
+| Q4 | | IRFR9020 | External video +5V on/off | 6 |
+| Q14 | | IRF9Z30 | | 14 |
+| Q15 | | IRF9Z30 | | 14 |
+| Q16 | | IRF9Z30 | +5V regulator |
+| Q20 | | IRF9Z30 | SCSI +5V regulator |
+| Q21 | | IRFR9020 | +12V on/off |
+| U5D | | 74AC245 | Permanent RAM data bus transceiver | 4 |
+| U5E | | 74AC245 | Permanent RAM data bus transceiver | 4 |
+| U5F | | 27C101 | Hi ROM | 4 |
+| U5G | | 27C101 | Lo ROM | 4 |
+| U7M | | OP-20 | SCSI +5V OpAmp | 14 |
+| U10D | | | CPU GLU | 5 |
+| U11C | | 74AC244 | | 3 |
+| U12C | | 74AC244 | | 3 |
+| U12D | | 68HC000 | | 3 |
+| U15D | | | Video | 6 |
+| VR1 | | | | 14 |
