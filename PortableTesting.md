@@ -27,6 +27,8 @@
     1. [Disk +12V Troubleshooting](#disk-12v-troubleshooting)
     1. [Disk +5V Troubleshooting](#disk-5v-troubleshooting)
 1. [Additional Resources](#additional-resources)
+    1. [M5126 RP201 Resistor Network](#m5126-rp201-resistor-network)
+    1. [Full Component List](#full-component-list)
 
 
 # Introduction
@@ -226,31 +228,73 @@ R8 100k
 
 | Designator | Location | Part | Description | Schematic Page |
 | --- | --- | --- | --- | --- |
+| C18 | | | | 14 |
 | C19 | | | Capacitor for LT1054 on hybrid | 14 |
+| D2 | | 1N5817 | +5V to 53C80 | 9 |
+| D3 | | 1N914 | | 12 |
+| D4 | | 1N914 | | 12 |
+| R9 | | 10k Ω 1206 Resistor | | 12 |
+| R11 | | 100k Ω 1206 Resistor | 53C80 /EOP pull-up | 9 |
+| R15 | | 10k Ω 1206 Resistor | /SCCW/REQ pull-up | 9 |
+| R17 | | 100k Ω 1206 Resistor | PMGR_IN0 voltage divider | 12 |
+| R18 | | 10k Ω 1206 Resistor | | 12 |
+| R19 | | 100k Ω 1206 Resistor | KBDSTOP pull-down | 13 |
 | R21 | | 100k Ω 1206 Resistor | +12V on/off pull-up | 14 |
 | R24 | | 301k Ω 1206 Resistor | SCSI +5V voltage divider |
 | R25 | | 100k Ω 1206 Resistor | SCSI +5V voltage divider |
+| R26 | | 10k Ω 1206 Resistor | | 8 |
+| R36 | | 47 Ω 1206 Resistor | FDB filter | 12 |
+| R49 | | 47 Ω 1206 Resistor | | 12 |
 | R50 | | 10k Ω 1206 Resistor | /IPL1 pull-up | 3 |
+| R75 | | 47 Ω 1206 Resistor | /SOUND_CS filter | 11 |
 | R94 | | 100k Ω 1206 Resistor | /LW pull-up | 5 |
 | R95 | | 100k Ω 1206 Resistor | Permanent RAM /CS15 pull-up | 15 |
+| R102 | | 470 Ω 1206 Resistor | | 12 |
+| R103 | | 10k Ω 1206 Resistor | | 12 |
+| R108 | | 100k Ω 1206 Resistor | RXDA+ pull-up | 8 |
+| R109 | | 100k Ω 1206 Resistor | MODEM_SND_EN pull-down | 11 |
 | R112 | | 100k Ω 1206 Resistor | /SLOT_LW pull-up | 5 |
 | R113 | | 100k Ω 1206 Resistor | /SLOT_UW pull-up | 5 |
 | R116 | | 100k Ω 1206 Resistor | /UW pull-up | 5 |
 | R120 | | 100k Ω 1206 Resistor | ROM /OE pull-up | 4 |
+| R125 | | 100k Ω 1206 Resistor | RXD_MODEM pull-down | 7 |
+| R127 | | 10k Ω 1206 Resistor | /VIAIRQ pull-up | 9 |
 | R129 | | 10k Ω 1206 Resistor | /BERR pull-up | 3 |
 | R130 | | 10k Ω 1206 Resistor | /BGACK pull-up | 3 |
 | R131 | | 10k Ω 1206 Resistor | /BR pull-up | 3 |
 | R135 | | 100k Ω 1206 Resistor | Video RAM /RW pull-up | 6 |
 | R136 | | 100k Ω 1206 Resistor | Video RAM /CS pull-up | 6 |
 | R138 | | 100k Ω 1206 Resistor | /IPL2 pull-down | 3 |
+| R139 | | 100k Ω 1206 Resistor | /INDISK1 pull-down | 7 |
+| R140 | | 100k Ω 1206 Resistor | CTS_MODEM pull-down | 7 |
+| R142 | | 100k Ω 1206 Resistor | | 12 |
+| R143 | | 10k Ω 1206 Resistor | /SYS_RST pull-up | 12 |
+| R144 | | 100k Ω 1206 Resistor | /MODEM_IN5 pull-up | 12 |
+| R146 | | 100k Ω 1206 Resistor | VIA_TEST pull-up | 12 |
+| R148 | | 1g Ω 1206 Resistor | | 7 |
+| R150 | | 100k Ω 1206 Resistor | /WR pull-down | 7 |
+| R151 | | 1k Ω 1206 Resistor | A/D filter | 12 |
+| R152 | | 10k Ω 1206 Resistor | | 12 |
+| R153 | | 100k Ω 1206 Resistor | PMGR_IN0 voltage divider | 12 |
+| R155 | | 10k Ω 1206 Resistor | /NMIIN pull-up | 12 | 
+| R156 | | 10k Ω 1206 Resistor | /RESET pull-up | 12 |
 | R160 | | 75k Ω 1206 Resistor | 1.2V reference to SCSI +5V OpAmp | 14 |
+| R168 | | 100k Ω 1206 Resistor | /DISP_BLANK pull-up | 12 |
 | RP2 | | | Permanent RAM /CS pull-ups | 15 |
 | Q1 | | IRF9Z30 | | |
 | Q2 | | IRFR9020 | Serial +5V on/off | 8 |
 | Q4 | | IRFR9020 | External video +5V on/off | 6 |
+| Q8 | | 2N3906 | | 8 |
+| Q9 | | 2N7002 | | 8 |
+| Q10 | | IRFR9020 | | 12 |
+| Q11 | | IRFR9020 | | 12 |
+| Q12 | | 2N3904 | | 12 |
+| Q13 | | IRFR9020 | | 12 |
 | Q14 | | IRF9Z30 | | 14 |
 | Q15 | | IRF9Z30 | | 14 |
 | Q16 | | IRF9Z30 | +5V regulator |
+| Q18 | | 2N3904 | | 12 |
+| Q19 | | 2N3904 | | 12 |
 | Q20 | | IRF9Z30 | SCSI +5V regulator |
 | Q21 | | IRFR9020 | +12V on/off |
 | U5D | | 74AC245 | Permanent RAM data bus transceiver | 4 |
@@ -259,8 +303,14 @@ R8 100k
 | U5G | | 27C101 | Lo ROM | 4 |
 | U7M | | OP-20 | SCSI +5V OpAmp | 14 |
 | U10D | | | CPU GLU | 5 |
+| U11K | | 74AC153 | | 7 |
 | U11C | | 74AC244 | | 3 |
 | U12C | | 74AC244 | | 3 |
 | U12D | | 68HC000 | | 3 |
+| U12G | | | Misc GLU | 7 |
+| U14A | | | Apple Sound | 10 |
+| U15B | | | Sony Sound | 10 |
+| U15C | | | Sony Sound | 10 |
 | U15D | | | Video | 6 |
 | VR1 | | | | 14 |
+| Y1 | | | | 7 |
