@@ -43,6 +43,7 @@ This is still heavily a work in progress, so many sections are completely empty.
 - Seperate M5126 section?
 - Make things look better
 - Interactivity
+- Link schematic pages
 
 
 ## Before you begin
@@ -228,20 +229,32 @@ R8 100k
 
 | Designator | Location | Part | Description | Schematic Page |
 | --- | --- | --- | --- | --- |
-| C18 | | | | 14 |
-| C19 | | | Capacitor for LT1054 on hybrid | 14 |
-| D2 | | 1N5817 | +5V to 53C80 | 9 |
+| C2 | A-5 | | | 14 |
+| C12 | G-15 |
+| C18 | M-5 | | | 14 |
+| C19 | M-5 | | Capacitor for LT1054 on hybrid | 14 |
+| C25 | M-2 | | | 14 |
+| C26 | M-2 | | | 14 |
+| C27 | M-3 | | | 14 |
+| C28 | M-4 | | | 14 |
+| D1 | A-6 | 1N5817 | | 14 |
+| D2 | A-11 | 1N5817 | +5V to 53C80 | 9 |
 | D3 | | 1N914 | | 12 |
 | D4 | | 1N914 | | 12 |
-| R9 | | 10k Ω 1206 Resistor | | 12 |
-| R11 | | 100k Ω 1206 Resistor | 53C80 /EOP pull-up | 9 |
+| R9 | A-12 | 10k Ω 1206 Resistor | | 12 |
+| R10 | B-1 |  |  | 14 |
+| R11 | C-10 | 1k Ω 1206 Resistor | 53C80 /EOP pull-up | 9 |
+| R12 | D-14 | 1k Ω 1206 Resistor | | 6 |
+| R13 | F-10 |
+| R14 | F-11 |
 | R15 | | 10k Ω 1206 Resistor | /SCCW/REQ pull-up | 9 |
-| R17 | | 100k Ω 1206 Resistor | PMGR_IN0 voltage divider | 12 |
-| R18 | | 10k Ω 1206 Resistor | | 12 |
-| R19 | | 100k Ω 1206 Resistor | KBDSTOP pull-down | 13 |
-| R21 | | 100k Ω 1206 Resistor | +12V on/off pull-up | 14 |
-| R24 | | 301k Ω 1206 Resistor | SCSI +5V voltage divider |
-| R25 | | 100k Ω 1206 Resistor | SCSI +5V voltage divider |
+| R17 | J-15 | 100k Ω 1206 Resistor | PMGR_IN0 voltage divider | 12 |
+| R18 | J-10 | 10k Ω 1206 Resistor | | 12 |
+| R19 | K-13 | 100k Ω 1206 Resistor | KBDSTOP pull-down | 13 |
+| R20 | L-13 |
+| R21 | L-11 | 100k Ω 1206 Resistor | +12V on/off pull-up | 14 |
+| R24 | M-7 | 301k Ω 1206 Resistor | SCSI +5V voltage divider | 14 |
+| R25 | M-7 | 100k Ω 1206 Resistor | SCSI +5V voltage divider | 14 |
 | R26 | | 10k Ω 1206 Resistor | | 8 |
 | R36 | | 47 Ω 1206 Resistor | FDB filter | 12 |
 | R49 | | 47 Ω 1206 Resistor | | 12 |
@@ -278,25 +291,37 @@ R8 100k
 | R153 | | 100k Ω 1206 Resistor | PMGR_IN0 voltage divider | 12 |
 | R155 | | 10k Ω 1206 Resistor | /NMIIN pull-up | 12 | 
 | R156 | | 10k Ω 1206 Resistor | /RESET pull-up | 12 |
+| R157 | | 10k Ω 1206 Resistor | | 14 |
+| R158 | | 2.2k Ω 1206 Resistor | | 14 |
+| R159 | | 2.2k Ω 1206 Resistor | | 14 |
 | R160 | | 75k Ω 1206 Resistor | 1.2V reference to SCSI +5V OpAmp | 14 |
+| R161 | | 1g Ω 1206 Resistor | | 14 |
+| R162 | | 100k Ω 1206 Resistor | | 14 |
 | R168 | | 100k Ω 1206 Resistor | /DISP_BLANK pull-up | 12 |
-| RP2 | | | Permanent RAM /CS pull-ups | 15 |
-| Q1 | | IRF9Z30 | | |
+| R173 | | 10k Ω 1206 Resistor | | 14 |
+| R174 | | 75k Ω 1206 Resistor | | 14 |
+| R175 | | 75k Ω 1206 Resistor | | 14 |
+| R176 | | 75k Ω 1206 Resistor | | 14 |
+| RP2 | K-13 | | Permanent RAM /CS pull-ups | 15 |
+| S1 | J-8 |
+| Q1 | | IRF9Z30 | Charge regulator | 14 |
 | Q2 | | IRFR9020 | Serial +5V on/off | 8 |
 | Q4 | | IRFR9020 | External video +5V on/off | 6 |
 | Q8 | | 2N3906 | | 8 |
 | Q9 | | 2N7002 | | 8 |
-| Q10 | | IRFR9020 | | 12 |
-| Q11 | | IRFR9020 | | 12 |
+| Q10 | F-10 | IRFR9020 | | 12 |
+| Q11 | F-13 | IRFR9020 | | 12 |
 | Q12 | | 2N3904 | | 12 |
-| Q13 | | IRFR9020 | | 12 |
-| Q14 | | IRF9Z30 | | 14 |
-| Q15 | | IRF9Z30 | | 14 |
+| Q13 | H-10 | IRFR9020 | | 12 |
+| Q14 | J-5 | IRF9Z30 | | 14 |
+| Q15 | J-6 | IRF9Z30 | | 14 |
 | Q16 | | IRF9Z30 | +5V regulator |
 | Q18 | | 2N3904 | | 12 |
 | Q19 | | 2N3904 | | 12 |
-| Q20 | | IRF9Z30 | SCSI +5V regulator |
-| Q21 | | IRFR9020 | +12V on/off |
+| Q20 | M-6 | IRF9Z30 | SCSI +5V regulator |
+| Q21 | | IRFR9020 | +12V on/off | 14 |
+| Q23 | | 2N3904 | | 14 |
+| Q25 | | 2N3904 | | 14 |
 | U5D | | 74AC245 | Permanent RAM data bus transceiver | 4 |
 | U5E | | 74AC245 | Permanent RAM data bus transceiver | 4 |
 | U5F | | 27C101 | Hi ROM | 4 |
@@ -313,4 +338,4 @@ R8 100k
 | U15C | | | Sony Sound | 10 |
 | U15D | | | Video | 6 |
 | VR1 | | | | 14 |
-| Y1 | | | | 7 |
+| Y1 | J-11 | | | 7 |
