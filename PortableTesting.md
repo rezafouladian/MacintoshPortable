@@ -143,6 +143,10 @@ Issue: The always-on +5V is greater than around 5.4V, or is the same voltage as 
 
 ## -5V Troubleshooting
 
+## LCD Panel Section
+
+<img src="images/displaypads1.png" alt="A drawing of a portion of the LCD PCB to show pads used to fix bad connections.">
+
 # Additional Resources
 
 ## Hybrid Pinout and Readings
