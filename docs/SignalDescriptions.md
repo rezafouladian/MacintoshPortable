@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Signal Descriptions
 
 ## 16MHZ_CLOCK_F
