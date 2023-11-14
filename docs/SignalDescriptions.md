@@ -1,23 +1,33 @@
----
-layout: default
----
-
 # Signal Descriptions
 
 ## 16MHZ_CLOCK_F
 
+Connected to:
+
 ## ACC(0), ACC(1), SLIM_SEL [ACC(2)]
+
+Connected to:
 
 ## ADDR(1) - ADDR(16)
 
+Connected to:
+
 ## ADDR(17) - ADDR(23)
+
+Connected to:
 
 ## ADDRUB(1) - ADDRUB(16)
 
+Connected to:
+
 ## <span style="text-decoration:overline">AS</span>
+
+Connected to:
 
 ## <span style="text-decoration:overline">BG</span>
 ### Bus Grant
+
+Connected to:
 
 ## <span style="text-decoration:overline">BGACK</span>
 ### Bus Grant Acknowledge

@@ -1,0 +1,13 @@
+site_name: MacintoshPortable.info
+repo_url: https://github.com/rezafouladian/macintoshportable
+nav:
+  - Home: index.md
+  - Docs: 
+    - Components: Components.md
+    - Memory Map: MemoryMap.md
+    - Signal Descriptions: SignalDescriptions.md
+    - Hardware & Accessories: HardwareAndAccessories.md
+    - More Resources: MoreResources.md
+  - GitHub: https://github.com/rezafouladian/macintoshportable
+markdown_extensions:
+  - footnotes
