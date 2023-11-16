@@ -1,7 +1,11 @@
 site_name: MacintoshPortable.info
+site_url: https://macintoshportable.info
 repo_url: https://github.com/rezafouladian/macintoshportable
 nav:
   - Home: index.md
+  - Troubleshooting:
+    - Display: 
+      - Display Testing: DisplayTesting.md
   - Docs: 
     - Components: Components.md
     - Memory Map: MemoryMap.md
