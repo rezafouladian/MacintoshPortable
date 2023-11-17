@@ -4,6 +4,7 @@ repo_url: https://github.com/rezafouladian/macintoshportable
 nav:
   - Home: index.md
   - Troubleshooting:
+    - Testing: Testing.md
     - Display: 
       - Display Testing: DisplayTesting.md
   - Docs: 

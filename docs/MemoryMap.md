@@ -19,11 +19,33 @@
 
 ## Permanent RAM
 
+Address Space: 0x000000-0x0FFFFF  
+Size: 1MB (0x100000)
+
+Address Lines:
+
+| A23 | A22 | A21 | A20 | A19-A0 |
+| --- | --- | --- | --- | ------ |
+| L | L | L | L | x |
+
 ## Expansion RAM
 
+Address Space: 0x100000-0x8FFFFF  
+Size: 8MB (0x800000)
+
 ## Permanent ROM
+
+Address Space: 0x900000-0x9FFFFF  
+Size: 1MB (0x100000)
+
 The stock ROM is 256KB repeated in a 1MB address space.[^1]  
 The permanent ROM can be disabled and replaced with external ROM by flipping a DIP switch on the M5120 or removing a jumper on the M5126.
+
+Address Lines:
+
+| A23 | A22 | A21 | A20 | A19-A0 |
+| --- | --- | --- | --- | ------ |
+| H | L | L | H | x |
 
 ## Expansion ROM
 This 4MB of address space is reserved for ROM expansion.
