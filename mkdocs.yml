@@ -14,5 +14,6 @@ nav:
     - Hardware & Accessories: HardwareAndAccessories.md
     - More Resources: MoreResources.md
   - GitHub: https://github.com/rezafouladian/macintoshportable
+  - Startup: StartupSequence.md
 markdown_extensions:
   - footnotes

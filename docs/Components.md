@@ -6,11 +6,15 @@ Designator:
 
 ## CPU GLU
 
+Also known as: CPU CAD, Normandy
+
 ## MISC GLU
 
 ## VIA
 
 ## VIDEO
+
+Also known as: Omaha
 
 ## Power Manager
 
@@ -29,6 +33,8 @@ Designator:
 ## SRAM (M5120 only)
 
 ## PSRAM (M5126 only)
+
+## Video RAM
 
 # Hybrid (M5120 only)
 
