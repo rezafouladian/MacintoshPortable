@@ -1,51 +1,107 @@
-# Main ICs
+## Main ICs
 
-## CPU - 68HC000
+### CPU - 68HC000
 
 Designator:
 
-## CPU GLU
+Package: 
+
+Type: Motorola 68HC000
+
+### CPU GLU
 
 Also known as: CPU CAD, Normandy
 
-## MISC GLU
+Designator: U10D
 
-## VIA
+Package: PLCC-84
 
-## VIDEO
+Type: Custom VLSI ASIC
+
+### MISC GLU
+
+Designator: U12G
+
+Package: PLCC-84
+
+Type: Custom VLSI ASIC
+
+### VIA
+
+Designator: U14J
+
+Package: 
+
+Type: 
+
+### VIDEO
 
 Also known as: Omaha
 
-## Power Manager
+Designator: U15D
 
-## 85C30
+Package: PLCC-84
 
-## Keyboard Controller
+Type: Custom VLSI ASIC
 
-## 53C80
+### Power Manager
 
-## SWIM
+### 85C30
 
-## ASC
+Designator: U10H
 
-# Other ICs
+### Keyboard Controller
 
-## SRAM (M5120 only)
+Designator: U12K
 
-## PSRAM (M5126 only)
+### SCSI
 
-## Video RAM
+Designator: 
 
-# Hybrid (M5120 only)
+Type: 53C80
 
-# Connectors
+### SWIM
 
-# Capacitors
+### ASC
 
-# Resistors
+## Other ICs
 
-# Transistors
+### SRAM (M5120 only)
 
-# Diodes
+### PSRAM (M5126 only)
 
-# Inductors
+### Video RAM
+
+## Hybrid (M5120 only)
+
+## Connectors
+
+### RAM and ROM Connectors
+
+Designator: 
+
+### PDS Connector
+
+Designator: 
+
+### Modem Connector
+
+Designator:
+
+## Capacitors
+
+### Electrolytic Capacitors
+
+### Tantalum Capacitors
+
+### Ceramic Capacitors
+
+## Resistors
+
+## Transistors
+
+## Diodes
+
+## Inductors
+
+## Other Components
