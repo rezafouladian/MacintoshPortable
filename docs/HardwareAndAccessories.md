@@ -1,23 +1,44 @@
-# RAM Cards
-## RAM Slot Cards
+## RAM Cards
+### RAM Slot Cards
 
-### Apple 1MB SRAM 630-4176
+#### Apple 1MB SRAM 630-4176
 
-### Computer Care PacRam
+#### Apple PSRAM
 
-### Applied Engineering MacRam Portable
+#### Computer Care PacRam
 
-## PDS RAM Cards
+#### Applied Engineering MacRam Portable
 
-### PSI
+#### MacEffects
 
-# Video Adapters
+### PDS RAM Cards
 
-## Apple Macintosh Portable Video Adapter (Cancelled)
+#### PSI
 
-## Computer Care VideoMacPac
+## Video Adapters
 
-## Generation Systems Portable Publisher
+### Apple Macintosh Portable Video Adapter (Cancelled)
 
-## Sayett Technology DataShow HR/MP
+### Computer Care VideoMacPac
+
+### Generation Systems Portable Publisher
+
+### Sayett Technology DataShow HR/MP
 This video adapter was designed to be used with an overhead projector and plugged directly into the Portable's video output.
+
+### nView Macintosh Portable Adapter
+
+### "New Portable Video Adapter"
+Coming soon
+
+## Other Hardware
+
+### DTACK Generator Card
+
+### Apple Numpad Module
+
+### Apple Backlight Upgrade
+
+### Debug ROM Card
+Coming soon  
+[https://github.com/rezafouladian/MacintoshPortableTestROM](https://github.com/rezafouladian/MacintoshPortableTestROM)
