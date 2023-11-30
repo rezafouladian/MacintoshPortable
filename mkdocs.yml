@@ -14,7 +14,7 @@ nav:
     - Hardware & Accessories: HardwareAndAccessories.md
     - More Resources: MoreResources.md
   - GitHub: https://github.com/rezafouladian/macintoshportable
-  - Startup: StartupSequence.md
+  - Startup Sequence: StartupSequence.md
 theme:
   name: material
   palette:
@@ -34,6 +34,7 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 markdown_extensions:
+  - footnotes
   - admonition
   - pymdownx.details
   - pymdownx.superfences
