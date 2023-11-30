@@ -8,3 +8,7 @@ Important note: Despite being published by Apple, these resources seem to have a
 - Apple Module Identification, P/N 072-8124
 - Macintosh Portable Developer Note, 1989
 - Macintosh Portable Developer Note For backlit Macintosh Portable, 1991
+
+## Websites and Blogs
+
+- [Portable Room](https://square.umin.ac.jp/itoh/portable_room.html), A Japanese website that started writing about the Macintosh Portable in 1998.
