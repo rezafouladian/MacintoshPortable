@@ -1,3 +1,5 @@
+For whatever reason, many of the error codes in Apple's Developer Note for the Macintosh Portable are wrong. It seems most other sites and documentation have copied from that in some way, because everything I see online also has the same mistakes.
+
 ## Critical Tests
 ### 01 - ROM Test
 This test calculates the sum of all bytes of the ROM (4 bytes at a time) minus the 4 byte checksum at the beginning.  
@@ -77,3 +79,21 @@ The minor error code is the current location of the stack pointer.
 ### 1E00 - PMMU Configuration
 ### 1F00 - PMMU Illegal Operation
 ### 2000 - PMMU Access Level Violation
+## Flag Bits
+To determine the flags, convert the major error register to binary. The high word contains the flags.
+### Bit 16 - Message queued
+### Bit 17 - SCC is INITed
+### Bit 18 - Prevent automatic sleep
+### Bit 19 - 
+### Bit 20 - 
+### Bit 21 - 
+### Bit 22 -
+### Bit 23 - 
+### Bit 24 - Unexpected exception received
+### Bit 25 -
+### Bit 26 - VIA Test is asserted
+### Bit 27 -
+### Bit 28 - Stop on error
+### Bit 29 - Loop on error
+### Bit 30 -
+### Bit 31 - 
