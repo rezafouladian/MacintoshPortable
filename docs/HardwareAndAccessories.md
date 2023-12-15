@@ -39,6 +39,8 @@ Coming soon
 
 ### Apple Portable Data Modem 2400 630-4175
 
+### Apple Portable International Modem
+
 ## Other Hardware
 
 ### DTACK Generator Card
