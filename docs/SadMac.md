@@ -43,6 +43,7 @@ This test verifies that CPU GLU mapper registers are unique
 ### 88 - SCSI Test (Full)
 ### 89 - ASC Test
 ### 8A - PRAM Test
+This test does not do anything and always fails.
 
 ## Exceptions
 Exception codes are ORed into the major error register, so it's possible they could combine with an existing error code.  
