@@ -14,6 +14,8 @@ nav:
     - Signal Descriptions: SignalDescriptions.md
     - Hardware & Accessories: HardwareAndAccessories.md
     - More Resources: MoreResources.md
+    - Test Manager: TestManager.md
+    - Unsorted: Unsorted.md
   - GitHub: https://github.com/rezafouladian/macintoshportable
   - Startup Sequence: StartupSequence.md
 theme:
