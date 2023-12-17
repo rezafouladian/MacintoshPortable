@@ -1,73 +1,54 @@
-### *S
-Service Mode
+### *S - Service Mode
 
-### *L
-Load A4
+### *L - Load A4
 
 Input: 4 Bytes
 
-### *B
-Set Byte Count
+### *B - Set Byte Count
 
 Input: 2 Bytes
 
-### *D
-Get Data
+### *D - Get Data
 
-### *C
-Checksum
+### *C - Checksum
 
-### *G
-Execute
+### *G - Execute
 
 Input: 4 Bytes
 
-### *0
-Load A0
+### *0 - Load A0
 
 Input: 4 Bytes
 
-### *1
-Load A1
+### *1 - Load A1
 
 Input: 4 Bytes
 
-### *4
-Clear D6/D7
+### *4 - Clear D6/D7
 
-### *5
-Display Boot Message
+### *5 - Display Boot Message
 
-### *7
-Prevent Sleep
+### *7 - Prevent Sleep
 
-### *A
-ASCII Mode
+### *A - ASCII Mode
 
-### *H
-Hex Mode
+### *H - Hex Mode
 
-### *R
-Send Test Results
+### *R - Send Test Results
 
-### *M
-Memory Dump
+### *M - Memory Dump
 
-### *E
-Echo On
+### *E - Echo On
 
-### *I
-Restart Test Manager
+### *I - Restart Test Manager
 
-### *P
-Power Manager Command
+### *P - Power Manager Command
 
-Input: 2 Bytes
+Input: ? Bytes
 
-### *T
-Run Critical Test
+### *T - Run Critical Test
 
-Input: 4 Bytes
+Input: 6 Bytes
 
 #### Test 0: Memory Sizing Test
 
@@ -84,6 +65,8 @@ A1: End address
 
 #### Test 4: ROM Test
 
+This test calculates a checksum individually for the two ROM chips.
+
 #### Test 5: Reverse Modulo 3 RAM Test
 
 A0: Start address  
@@ -94,10 +77,9 @@ A1: End address
 A0: Start address  
 A1: End address
 
-### *N
-Run Non-critical Test
+### *N - Run Non-critical Test
 
-Input: 4 Bytes
+Input: 6 Bytes
 
 #### Test 80: Mapper RAM Data Test
 
