@@ -49,6 +49,8 @@ Coming soon
 
 ### Apple Backlight Upgrade
 
+### Apple ROM Card AP1234-02
+
 ### Debug ROM Card
 Coming soon  
 [https://github.com/rezafouladian/MacintoshPortableTestROM](https://github.com/rezafouladian/MacintoshPortableTestROM)
