@@ -54,3 +54,5 @@ Coming soon
 ### Debug ROM Card
 Coming soon  
 [https://github.com/rezafouladian/MacintoshPortableTestROM](https://github.com/rezafouladian/MacintoshPortableTestROM)
+
+### "New Portable Numpad Module"
