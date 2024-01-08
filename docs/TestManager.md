@@ -1,8 +1,19 @@
+To enter the test manager, you can ground the VIA_TEST line located at pin 7 of the J22 edge connector. This must be done at boot before the cursor appears.
+
+Most examples here that involve additional input assume you are running in [*A - ASCII Mode](#a---ascii-mode).
+
 ### *S - Service Mode
+
+Stops the startup message if entered using VIA_TEST or enabled using [*5](#5-display-boot-message), and disables the sleep timer.
 
 ### *L - Load A4
 
 Input: 4 Bytes
+
+Example Usage:
+```
+*L00900000
+```
 
 ### *B - Set Byte Count
 
@@ -16,19 +27,38 @@ Input: 2 Bytes
 
 Input: 4 Bytes
 
+Example Usage:
+```
+*G00900058
+```
+
 ### *0 - Load A0
 
 Input: 4 Bytes
+
+Example Usage:
+```
+*000100000
+```
 
 ### *1 - Load A1
 
 Input: 4 Bytes
 
+Example Usage:
+```
+*100200000
+```
+
 ### *4 - Clear D6/D7
+
+Clears the error result registers in D6 and D7.
 
 ### *5 - Display Boot Message
 
 ### *7 - Prevent Sleep
+
+Prevents the computer from sleeping automatically.
 
 ### *A - ASCII Mode
 
@@ -36,7 +66,19 @@ Input: 4 Bytes
 
 ### *R - Send Test Results
 
+Outputs the D6 and D7 result registers.
+
 ### *M - Memory Dump
+
+A4: Start address
+D4: Number of bytes to dump
+
+Example Usage:
+```
+*L000FFFF0
+*B000F
+*M
+```
 
 ### *E - Echo On
 
@@ -54,12 +96,19 @@ Input: 6 Bytes
 
 #### Test 1: Data Bus Test
 
-A0: Test Address
+A0: Test address
 
 #### Test 2: Modulo 3 RAM Test
 
 A0: Start address  
 A1: End address
+
+Example Usage:
+```
+*000000000
+*100100000
+*T000200010000
+```
 
 #### Test 3: Address Line Test
 
@@ -72,10 +121,24 @@ This test calculates a checksum individually for the two ROM chips.
 A0: Start address  
 A1: End address
 
+Example Usage:
+```
+*000000000
+*100100000
+*T000500010000
+```
+
 #### Test 6: March RAM Test
 
 A0: Start address  
 A1: End address
+
+Example Usage:
+```
+*000000000
+*100100000
+*T000600010000
+```
 
 ### *N - Run Non-critical Test
 
@@ -83,7 +146,11 @@ Input: 6 Bytes
 
 #### Test 80: Mapper RAM Data Test
 
+See also: [CPU GLU RAM Mapping Registers](CPUGLU.md#ram-mapping-registers)
+
 #### Test 81: Mapper RAM Uniqueness Test
+
+See also: [CPU GLU RAM Mapping Registers](CPUGLU.md#ram-mapping-registers)
 
 #### Test 82: VRAM Data Test
 
