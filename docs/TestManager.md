@@ -1,5 +1,12 @@
 To enter the test manager, you can ground the VIA_TEST line located at pin 7 of the J22 edge connector. This must be done at boot before the cursor appears.
 
+Connect a serial cable to the Modem port on the Portable.
+
+Baud Rate: 9600  
+Parity: None  
+Data Bits: 8  
+Stop Bits: 2
+
 Most examples here that involve additional input assume you are running in [*A - ASCII Mode](#a---ascii-mode).
 
 ### *S - Service Mode
@@ -24,6 +31,8 @@ Input: 2 Bytes
 ### *C - Checksum
 
 ### *G - Execute
+
+Execute code from a provided memory address.
 
 Input: 4 Bytes
 
@@ -91,6 +100,19 @@ Input: ? Bytes
 ### *T - Run Critical Test
 
 Input: 6 Bytes
+Run a test from the built in critical tests.
+
+Input: 6 Bytes  
+
+Input structure:  
+
+1. 2 bytes for the test number (Example: `0004` for the ROM Test)
+2. 2 bytes for the number of passes (Example: `00FF` to run for 255 passes)
+3. 2 bytes for test options
+
+```
+*T000400FF0000
+```
 
 #### Test 0: Memory Sizing Test
 
