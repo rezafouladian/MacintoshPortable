@@ -18,6 +18,8 @@ Package: PLCC-84
 
 Type: Custom VLSI ASIC
 
+See also: [CPU GLU](CPUGLU.md)
+
 ### MISC GLU
 
 Designator: U12G
