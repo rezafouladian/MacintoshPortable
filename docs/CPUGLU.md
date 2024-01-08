@@ -22,5 +22,7 @@ Each register is three bits wide.
 | 0xFC001D | Bit 2: Moves 0x700000-0x77FFFF from SLOT_CS0 to SLOT_CS1 <br>Bit 1: Unknown <br>Bit 0: Unknown |
 | 0xFC001F | Bit 2: Moves 0x780000-0x7FFFFF from SLOT_CS0 to SLOT_CS1 <br>Bit 1: Unknown <br>Bit 0: Unknown |
 
+Tests [80 and 81](TestManager.md#test-80-mapper-ram-data-test) in the Test Manager will write values to these registers to test they are functioning properly.
+
 ## RAM Config Register
 This 3 bit register is at 0xFE0200. Function is unknown. Setting the first bit (bit 0) seems to freeze the system.
