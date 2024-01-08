@@ -5,11 +5,12 @@
 
 #### Apple PSRAM 1MB/3MB 820-0662-01
 
-#### Computer Care PacRam
-
 #### Applied Engineering MacRam Portable
 
-#### MacEffects
+#### Computer Care PacRam
+This 4MB card uses DRAM rather than SRAM.
+
+#### MacEffects 8MB RAM Card
 
 #### Kingston 1MB/4MB
 
@@ -24,6 +25,7 @@
 ### Computer Care VideoMacPac
 
 ### Generation Systems Portable Publisher
+Generation Systems/Generation X Technologies
 
 ### Sayett Technology DataShow HR/MP
 This video adapter was designed to be used with an overhead projector and plugged directly into the Portable's video output.
@@ -33,13 +35,33 @@ This video adapter was designed to be used with an overhead projector and plugge
 ### "New Portable Video Adapter"
 Coming soon
 
-## Storage Adapters
+## Storage
+
+### MicroNet Pi-40p and Pi-80p
 
 ## Modems
 
 ### Apple Portable Data Modem 2400 630-4175
 
 ### Apple Portable International Modem
+
+### Applied Engineering DataLink/Mac Portable
+
+### Doradus 2400/1200 Modem for 3270
+
+### Megahertz EasyTalk MNP5
+
+### Orchid Technology OrchidFAX LTs
+
+### Prometheus Products TravelModem
+
+### PSI COMplete FAX/Modem
+
+### Xecom NewPort MP 2400
+
+### Xecom NewPort MP 2400mnp5
+
+### Xecom NewPort MP FAX/Data
 
 ## Other Hardware
 
@@ -56,3 +78,13 @@ Coming soon
 [https://github.com/rezafouladian/MacintoshPortableTestROM](https://github.com/rezafouladian/MacintoshPortableTestROM)
 
 ### "New Portable Numpad Module"
+
+### Second Wave ExpanSE Home BaSE
+
+### Apple Battery Charger
+
+### Creative Solutions ROM Expansion Card
+
+### MicroTouch Mac 'n Touch
+
+### Lind Electronic Design External Battery Charger
