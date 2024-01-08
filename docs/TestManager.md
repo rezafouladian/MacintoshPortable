@@ -99,7 +99,6 @@ Input: ? Bytes
 
 ### *T - Run Critical Test
 
-Input: 6 Bytes
 Run a test from the built in critical tests.
 
 Input: 6 Bytes  
