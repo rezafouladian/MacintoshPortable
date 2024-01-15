@@ -27,7 +27,7 @@ This is test *T 0 when run from Test Manager.
 #### CD35 - During a send, power manager did not finish a handshake
 #### CD36 - During a send, power manager did not start a handshake
 #### CD37 - Timed out waiting for reply to initial handshake
-#### CD38 - Power manager was never read to start handshake
+#### CD38 - Power manager was never ready to start handshake
 ### 82 - VRAM Data Test
 ### 83 - VRAM Address Test
 
