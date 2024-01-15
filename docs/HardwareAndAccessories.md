@@ -7,6 +7,8 @@
 
 #### Applied Engineering MacRam Portable
 
+This card was expandable up to 8MB in size using 1MB SIPP SRAM modules.
+
 #### Computer Care PacRam
 This 4MB card uses DRAM rather than SRAM.
 
