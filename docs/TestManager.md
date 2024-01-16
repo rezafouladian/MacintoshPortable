@@ -7,7 +7,8 @@ Parity: None
 Data Bits: 8  
 Stop Bits: 2
 
-Most examples here that involve additional input assume you are running in [*A - ASCII Mode](#a---ascii-mode).
+Most examples here that involve additional input assume you are running in [*A - ASCII Mode](#a---ascii-mode).  
+For example, before running a command like `*T000100050000` make sure you've run `*A` at least once, or the system will assume the input is hex rather than ASCII.
 
 ### *S - Service Mode
 
@@ -79,8 +80,10 @@ Outputs the D6 and D7 result registers.
 
 ### *M - Memory Dump
 
-A4: Start address
-D4: Number of bytes to dump
+Dump memory starting at the address in A4, for D4 bytes.
+
+[A4](#l---load-a4): Start address  
+[D4](#b---set-byte-count): Number of bytes to dump
 
 Example Usage:
 ```
