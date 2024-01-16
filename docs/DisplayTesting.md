@@ -6,6 +6,9 @@ This is useful for determining where bad lines or pixels are on the display.
 
 The center of the crosshair is 1 pixel with 3 pixel gaps.
 
+It's currently very slow and needs to be rewritten at some point.
+
+[Download the utility as a 1.44MB floppy image](files/ScreenTest.img.zip)
 
 ## LCD Connection Patching
 
