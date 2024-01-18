@@ -1,26 +1,75 @@
+# Macintosh Portable "Sad Mac" Error Codes
+
+These error codes are specific to the Macintosh Portable and may not apply to other systems.
+
 For whatever reason, many of the error codes in Apple's Developer Note for the Macintosh Portable are wrong. It seems most other sites and documentation have copied from that in some way, because everything I see online also has the same mistakes.
 
 ## Critical Tests
 ### 01 - ROM Test
 This test calculates the sum of all bytes of the ROM (4 bytes at a time) minus the 4 byte checksum at the beginning.  
 If the checksum does not match, $FFFF is returned in the minor error register.
+
+Example error:
+```
+00000001
+0000FFFF
+```
 ### 03 - RAM Test
+
+Example error:
+```
+00000003
+00000040
+```
 ### 05 - Address Line Test
-This is test *T 3 when run from Test Manager.
+This is test *T 3 when run from the [Test Manager](TestManager.md).
+
+Example error:
+```
+00000005
+
+```
 ### 06 - VIA Test
+
+Example error:
+```
+00000006
+
+```
 ### 08 - Data Bus Test
-This is test *T 1 when run from Test Manager.
+This is test *T 1 when run from the [Test Manager](TestManager.md).
 ### 0B - SCSI Test
-Note: This test does not appear to ever result in a sad mac
+Note: This test does not appear to ever result in a sad mac. The test is run but never checked for errors.
 ### 0C - SWIM Test
-Note: This test does not appear to ever result in a sad mac
+Note: This test does not appear to ever result in a sad mac. The test is run but never checked for errors.
 ### 0E - Data Bus Test
+Example error:
+```
+0000000E
+
+```
 ### 0F - System error before error table loaded
 A system error occurred before the errors loaded.  
 The minor error code indicates what error occurred.
+Example error:
+```
+0000000F
+00000001
+```
 ### 10 - Power Manager Self Test
+Example error:
+```
+00000010
+
+```
 ### 11 - Memory Sizing Test
-This is test *T 0 when run from Test Manager.
+This is test *T 0 when run from the [Test Manager](TestManager.md).
+
+Example error:
+```
+00000011
+
+```
 ### 14 - Power Manager Communication
 #### CD33 - During a receive, power manager did not finish a handshake
 #### CD34 - During a receive, power manager did not start a handshake
@@ -32,10 +81,15 @@ This is test *T 0 when run from Test Manager.
 ### 83 - VRAM Address Test
 
 ## Non-critical Tests
+Non-critical tests will typically not crash the computer when they fail and instead save the error for later.
 ### 80 - Mapper RAM Data Test
-This test read and writes patterns to the CPU GLU mapper registers
+This test read and writes patterns to the CPU GLU mapper registers.
+
+Note: This test is not run on startup and typically only accessible from the [Test Manager](TestManager.md).
 ### 81 - Mapper RAM Uniqueness Test
-This test verifies that CPU GLU mapper registers are unique 
+This test verifies that CPU GLU mapper registers are unique.
+
+Note: This test is not run on startup and typically only accessible from the [Test Manager](TestManager.md).
 ### 84 - SCC Reg Test
 ### 85 - SCC Loop Test
 ### 86 - SCC Timer Test
