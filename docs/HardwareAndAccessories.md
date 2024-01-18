@@ -16,6 +16,8 @@ This 4MB card uses DRAM rather than SRAM.
 
 #### Kingston 1MB/4MB
 
+Model: KTA-1000/MP (1MB) or KTA-4000/MP (4MB)
+
 ### PDS RAM Cards
 
 #### PSI
