@@ -90,5 +90,6 @@ Coming soon
 ### Creative Solutions ROM Expansion Card
 
 ### MicroTouch Mac 'n Touch
+This added a touch screen to the Macintosh Portable.
 
 ### Lind Electronic Design External Battery Charger
