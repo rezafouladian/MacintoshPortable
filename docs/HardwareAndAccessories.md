@@ -84,6 +84,10 @@ Coming soon
 ### "New Portable Numpad Module"
 
 ### Second Wave ExpanSE Home BaSE
+This expansion system allowed the Portable to be "docked" and connected to an external chassis containing two SE PDS slots.
+
+??? note "Image"
+    ![The ExpanSE Home BaSE connected to a Macintosh Portable](media/expanse_homebase.jpg)
 
 ### Apple Battery Charger
 
