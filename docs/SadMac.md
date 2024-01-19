@@ -5,6 +5,8 @@ These error codes are specific to the Macintosh Portable and may not apply to ot
 For whatever reason, many of the error codes in Apple's Developer Note for the Macintosh Portable are wrong. It seems most other sites and documentation have copied from that in some way, because everything I see online also has the same mistakes.
 
 ## Critical Tests
+Critical tests failing during startup tests will usually result in a "Sad Mac" screen and the computer will not continue booting.
+
 ### 01 - ROM Test
 This test calculates the sum of all bytes of the ROM (4 bytes at a time) minus the 4 byte checksum at the beginning.  
 If the checksum does not match, $FFFF is returned in the minor error register.
