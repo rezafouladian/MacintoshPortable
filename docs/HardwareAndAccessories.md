@@ -69,19 +69,11 @@ Coming soon
 
 ## Other Hardware
 
-### DTACK Generator Card
-
 ### Apple Numpad Module
 
 ### Apple Backlight Upgrade
 
 ### Apple ROM Card AP1234-02
-
-### Debug ROM Card
-Coming soon  
-[https://github.com/rezafouladian/MacintoshPortableTestROM](https://github.com/rezafouladian/MacintoshPortableTestROM)
-
-### "New Portable Numpad Module"
 
 ### Second Wave ExpanSE Home BaSE
 This expansion system allowed the Portable to be "docked" and connected to an external chassis containing two SE PDS slots.
@@ -97,3 +89,9 @@ This expansion system allowed the Portable to be "docked" and connected to an ex
 This added a touch screen to the Macintosh Portable.
 
 ### Lind Electronic Design External Battery Charger
+
+### "Debug ROM Card"
+
+### "New Portable Numpad Module"
+
+### DTACK Generator Card
