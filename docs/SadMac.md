@@ -73,6 +73,33 @@ Example error:
 
 ```
 ### 14 - Power Manager Communication
+
+??? note "Power Manager Communication Flowchart"
+
+    ``` mermaid
+    graph TD
+        A[PMGR/VIA ready?];
+        A ---->|Yes| B[PMGR handshake response?];
+        A -->|No| C[Timeout exceeded?];
+        C -->|No| A;
+        C -->|Yes| D[Error CD38];
+        B ---->|Yes| E[Direction?];
+        B -->|No| F[Timeout exceeded?];
+        F -->|No| B;
+        F -->|Yes| G[Error CD37];
+        E -->|Send| H[Send started?];
+        E -->|Receive| I[Receive started?];
+        I --->|Yes| J[Receive finished?];
+        H --->|Yes| K[Send finished?];
+        J --->|Yes| Z[Done];
+        I -->|No| L[Error CD34];
+        J -->|No| M[Error CD33];
+        H -->|No| N[Error CD36];
+        K -->|No| O[Error CD35];
+        K --->|Yes| Z;
+
+    ```
+
 #### CD33 - During a receive, power manager did not finish a handshake
 #### CD34 - During a receive, power manager did not start a handshake
 #### CD35 - During a send, power manager did not finish a handshake
