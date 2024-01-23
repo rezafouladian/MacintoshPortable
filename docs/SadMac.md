@@ -39,6 +39,7 @@ Data bit 6 is marked as failed.
 0000FF00
 ```
 The upper 8 bits on the data bus (bits 8-15) are marked as failed. It's likely one or more RAM chips on the upper byte are failed, or a chip select line is disconnected.
+
 ### 05 - Address Line Test
 This is test [*T 3](TestManager.md#test-3-address-line-test) when run from the [Test Manager](TestManager.md).
 
@@ -136,15 +137,15 @@ Non-critical tests will typically not crash the computer when they fail and inst
 ### 80 - Mapper RAM Data Test
 This test read and writes patterns to the CPU GLU mapper registers.
 
-Note: This test is not run on startup and typically only accessible from the [Test Manager](TestManager.md).
+Note: This test is not run on startup and typically only accessible from the [Test Manager](TestManager.md#test-80-mapper-ram-data-test).
 ### 81 - Mapper RAM Uniqueness Test
 This test verifies that CPU GLU mapper registers are unique.
 
-Note: This test is not run on startup and typically only accessible from the [Test Manager](TestManager.md).
+Note: This test is not run on startup and typically only accessible from the [Test Manager](TestManager.md#test-81-mapper-ram-uniqueness-test).
 ### 84 - SCC Reg Test
 ### 85 - SCC Loop Test
 ### 86 - SCC Timer Test
-### 87 - VIA Test (Same as above, when run from Test Manager)
+### 87 - VIA Test (Full)
 ### 88 - SCSI Test (Full)
 ### 89 - ASC Test
 ### 8A - PRAM Test
