@@ -5,12 +5,14 @@
 
 #### Apple PSRAM 1MB/3MB 820-0662-01
 
+This card was most commonly found with the Model M5126 Backlit Macintosh Portable.
+
 #### Applied Engineering MacRam Portable
 
 This card was expandable up to 8MB in size using 1MB SIPP SRAM modules.
 
 #### Computer Care PacRam
-This 4MB card uses DRAM rather than SRAM.
+This 4MB card uses DRAM rather than SRAM or PSRAM.
 
 #### MacEffects 8MB RAM Card
 
