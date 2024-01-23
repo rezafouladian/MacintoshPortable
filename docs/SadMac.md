@@ -2,7 +2,10 @@
 
 These error codes are specific to the Macintosh Portable and may not apply to other systems.
 
-For whatever reason, many of the error codes in Apple's Developer Note for the Macintosh Portable are wrong. It seems most other sites and documentation have copied from that in some way, because everything I see online also has the same mistakes.
+!!! note
+    For whatever reason, many of the error codes in Apple's Developer Note for the Macintosh Portable are wrong. It seems most other sites and documentation have copied from that in some way, because everything I see online also has the same mistakes.
+
+When an issue is found during the critical tests on intial startup, the computer will display a "sad mac" icon with an error code indicating which test failed.
 
 ## Critical Tests
 Critical tests failing during startup tests will usually result in a "Sad Mac" screen and the computer will not continue booting.
@@ -22,6 +25,8 @@ This error indicates an issue when running the "modulo 3" RAM test. The test wri
 
 The minor error register will contain 2 bytes to indicate any failed bits on the 16-bit data bus.
 
+This is test [*T 2](TestManager.md#test-2-modulo-3-ram-test) when run from the [Test Manager](TestManager.md).
+
 **Example errors:**
 ```
 00000003
@@ -35,12 +40,12 @@ Data bit 6 is marked as failed.
 ```
 The upper 8 bits on the data bus (bits 8-15) are marked as failed. It's likely one or more RAM chips on the upper byte are failed, or a chip select line is disconnected.
 ### 05 - Address Line Test
-This is test *T 3 when run from the [Test Manager](TestManager.md).
+This is test [*T 3](TestManager.md#test-3-address-line-test) when run from the [Test Manager](TestManager.md).
 
 Example error:
 ```
 00000005
-
+????????
 ```
 ### 06 - VIA Test
 
@@ -59,7 +64,7 @@ Note: This test does not appear to ever result in a sad mac. The test is run but
 Example error:
 ```
 0000000E
-
+????????
 ```
 ### 0F - System error before error table loaded
 A system error occurred before the errors loaded.  
@@ -73,7 +78,7 @@ Example error:
 Example error:
 ```
 00000010
-
+????????
 ```
 ### 11 - Memory Sizing Test
 This is test *T 0 when run from the [Test Manager](TestManager.md).
@@ -81,7 +86,7 @@ This is test *T 0 when run from the [Test Manager](TestManager.md).
 Example error:
 ```
 00000011
-
+????????
 ```
 ### 14 - Power Manager Communication
 
@@ -110,6 +115,12 @@ Example error:
         K --->|Yes| Z;
 
     ```
+
+Example error:
+```
+00000014
+0000CD34
+```
 
 #### CD33 - During a receive, power manager did not finish a handshake
 #### CD34 - During a receive, power manager did not start a handshake
@@ -179,15 +190,18 @@ To determine the flags, convert the major error register to binary. The high wor
 ### Bit 16 - Message queued
 ### Bit 17 - SCC is INITed
 ### Bit 18 - Prevent automatic sleep
-### Bit 19 - 
-### Bit 20 - 
-### Bit 21 - 
-### Bit 22 -
-### Bit 23 - 
+### Bit 19 - Star * received
+### Bit 20 - ASCII input mode
+If this bit is set then the Test Manager input expects ASCII input.
+If this bit is cleared then it expects hexadecimal input.
+### Bit 21 - Echo enabled
+### Bit 22 - Timer enabled
+### Bit 23 - New line after messages
+If this bit is set then a new line/CRLF is sent after each message.
 ### Bit 24 - Unexpected exception received
-### Bit 25 -
+### Bit 25 - Programmer's key interrupt was pressed
 ### Bit 26 - VIA Test is asserted
-### Bit 27 -
+### Bit 27 - Bus errors OK
 ### Bit 28 - Stop on error
 ### Bit 29 - Loop on error
 ### Bit 30 -
