@@ -18,11 +18,22 @@ Example error:
 ```
 ### 03 - RAM Test
 
-Example error:
+This error indicates an issue when running the "modulo 3" RAM test. The test writes a pattern 4 bytes at a time, copying the next pattern from the previous 4 bytes so that any errors in individual bits are copied to the end. The test compares the pattern written at the end to the original test pattern and any bits that do not match will be marked in the minor error register.
+
+The minor error register will contain 2 bytes to indicate any failed bits on the 16-bit data bus.
+
+**Example errors:**
 ```
 00000003
 00000040
 ```
+Data bit 6 is marked as failed.
+<hr>
+```
+00000003
+0000FF00
+```
+The upper 8 bits on the data bus (bits 8-15) are marked as failed. It's likely one or more RAM chips on the upper byte are failed, or a chip select line is disconnected.
 ### 05 - Address Line Test
 This is test *T 3 when run from the [Test Manager](TestManager.md).
 
