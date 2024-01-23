@@ -98,7 +98,15 @@ Example Usage:
 
 ### *P - Power Manager Command
 
-Input: ? Bytes
+Send commands to the Power Manager.
+
+Input: 2 + ? Bytes
+
+Example usage:
+```
+*P100104
+```
+This command should turn off the hard drive power. (Untested)
 
 ### *T - Run Critical Test
 
@@ -112,6 +120,7 @@ Input structure:
 2. 2 bytes for the number of passes (Example: `00FF` to run for 255 passes)
 3. 2 bytes for test options
 
+Example Usage:
 ```
 *T000400FF0000
 ```
