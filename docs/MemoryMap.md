@@ -1,21 +1,21 @@
 | Start Address | End Address | Description |
 | ------------- | ----------- | ----------- |
-| FF 0000 | FF FFFF | Auto-vector Read, VPA |
-| FE 0000 | FE FFFF | Normal/Idle Mode, Test |
-| FD 0000 | FD FFFF | SCC |
-| FC 0000 | FC FFFF | Slot Configure |
-| FB 0000 | FB FFFF | Sound |
-| FA 0000 | FA FFFF | Video |
-| F9 0000 | F0 FFFF | SCSI |
-| F8 0000 | F8 FFFF | ROM Diagnostics |
-| F7 0000 | F7 FFFF | VIA |
-| F6 0000 | F6 FFFF | SWIM |
-| F0 0000 | F5 FFFF | Reserved (Unknown) |
-| E0 0000 | EF FFFF | PDS ROM |
-| A0 0000 | DF FFFF | Expansion ROM |
-| 90 0000 | 9F FFFF | Permanent ROM |
-| 10 0000 | 8F FFFF | Expansion RAM |
-| 00 0000 | 0F FFFF | Permanent RAM |
+| FF 0000 | FF FFFF | [Auto-vector Read, VPA](#auto-vector-read-vpa) |
+| FE 0000 | FE FFFF | [Normal/Idle Mode, Test](#normalidle-mode-test) |
+| FD 0000 | FD FFFF | [SCC](#scc) |
+| FC 0000 | FC FFFF | [Slot Configure](#slot-configure) |
+| FB 0000 | FB FFFF | [Sound](#sound) |
+| FA 0000 | FA FFFF | [Video](#video) |
+| F9 0000 | F0 FFFF | [SCSI](#scsi) |
+| F8 0000 | F8 FFFF | [ROM Diagnostics](#rom-diagnostics) |
+| F7 0000 | F7 FFFF | [VIA](#via) |
+| F6 0000 | F6 FFFF | [SWIM](#swim) |
+| F0 0000 | F5 FFFF | [Reserved (Unknown)](#reserved-unknown) |
+| E0 0000 | EF FFFF | [PDS ROM](#pds-rom) |
+| A0 0000 | DF FFFF | [Expansion ROM](#expansion-rom) |
+| 90 0000 | 9F FFFF | [Permanent ROM](#permanent-rom) |
+| 10 0000 | 8F FFFF | [Expansion RAM](#expansion-ram) |
+| 00 0000 | 0F FFFF | [Permanent RAM](#permanent-ram) |
 
 ## Permanent RAM
 
