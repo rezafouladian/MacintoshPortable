@@ -6,7 +6,7 @@
 | FC 0000 | FC FFFF | [Slot Configure](#slot-configure) |
 | FB 0000 | FB FFFF | [Sound](#sound) |
 | FA 0000 | FA FFFF | [Video](#video) |
-| F9 0000 | F0 FFFF | [SCSI](#scsi) |
+| F9 0000 | F9 FFFF | [SCSI](#scsi) |
 | F8 0000 | F8 FFFF | [ROM Diagnostics](#rom-diagnostics) |
 | F7 0000 | F7 FFFF | [VIA](#via) |
 | F6 0000 | F6 FFFF | [SWIM](#swim) |
@@ -52,27 +52,51 @@ This 4MB of address space is reserved for ROM expansion.
 
 ## PDS ROM
 
+Address Space: 0xE00000-0xEFFFFF
+
 ## Reserved (Unknown)
+
+Address Space: 0xF00000-0xF5FFFF
 
 ## SWIM
 
+Address Space: 0xF60000-0xF6FFFF
+
 ## VIA
+
+Address Space: 0xF70000-0xF7FFFF
 
 ## ROM Diagnostics
 
+Address Space: 0xF80000-0xF8FFFF
+
 ## SCSI
+
+Address Space: 0xF90000-0xF9FFFF
 
 ## Video
 
+Address Space: 0xFA0000-0xFAFFFF
+
 ## Sound
+
+Address Space: 0xFB0000-0xFBFFFF
 
 ## Slot Configure
 
+Address Space: 0xFC0000-0xFCFFFF
+
 ## SCC
+
+Address Space: 0xFD0000-0xFDFFFF
 
 ## Normal/Idle Mode, Test
 
+Address Space: 0xFE0000-0xFEFFFF
+
 ## Auto-vector Read, VPA
+
+Address Space: 0xFF0000-0xFFFFFF
 
 
 
