@@ -12,9 +12,11 @@ For example, before running a command like `*T000100050000` make sure you've run
 
 ### *S - Service Mode
 
-Stops the startup message if entered using VIA_TEST or enabled using [*5](#5-display-boot-message), and disables the sleep timer.
+Stops the startup message if entered using VIA_TEST or enabled using [*5](#5-display-boot-message), and disables the sleep timer which will normally shut down the computer after some time.
 
 ### *L - Load A4
+
+Load a value into address register A4, for use in other commands.
 
 Input: 4 Bytes
 
@@ -24,6 +26,8 @@ Example Usage:
 ```
 
 ### *B - Set Byte Count
+
+Load a value into data register D4, for use in other commands.
 
 Input: 2 Bytes
 
@@ -44,6 +48,8 @@ Example Usage:
 
 ### *0 - Load A0
 
+Load a value into address register A0, for use in other commands.
+
 Input: 4 Bytes
 
 Example Usage:
@@ -52,6 +58,8 @@ Example Usage:
 ```
 
 ### *1 - Load A1
+
+Load a value into address register A1, for use in other commands.
 
 Input: 4 Bytes
 
@@ -133,8 +141,8 @@ A0: Test address
 
 #### Test 2: Modulo 3 RAM Test
 
-A0: Start address  
-A1: End address
+[A0](#0---load-a0): Start address  
+[A1](#1---load-a1): End address
 
 Example Usage:
 ```
@@ -151,8 +159,8 @@ This test calculates a checksum individually for the two ROM chips.
 
 #### Test 5: Reverse Modulo 3 RAM Test
 
-A0: Start address  
-A1: End address
+[A0](#0---load-a0): Start address  
+[A1](#1---load-a1): End address
 
 Example Usage:
 ```
@@ -163,8 +171,8 @@ Example Usage:
 
 #### Test 6: March RAM Test
 
-A0: Start address  
-A1: End address
+[A0](#0---load-a0): Start address  
+[A1](#1---load-a1): End address
 
 Example Usage:
 ```
