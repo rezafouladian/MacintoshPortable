@@ -59,7 +59,8 @@ Example error:
 ### 08 - Data Bus Test (End of RAM)
 
 This error indicates a failure in reading and writing the last 8 bytes of RAM (where the computer has placed the stack after memory sizing).  
-A pattern is written and read 256 times, and any bit errors that occur are represented in the minor error register.
+A pattern is written and read 256 times, and any bit errors that occur are represented in the minor error register.  
+For more info on the test, see [Data Bus Test](TestManager.md#test-1-data-bus-test).
 
 **Example error:**
 ```
@@ -76,7 +77,8 @@ Note: This test does not appear to ever result in a sad mac. The test is run but
 ### 0E - Data Bus Test (Start of RAM)
 
 This error indicates a failure in reading and writing the first 8 bytes of RAM.
-A pattern is written and read 256 times, and any bit errors that occur are represented in the minor error register.
+A pattern is written and read 256 times, and any bit errors that occur are represented in the minor error register.  
+For more info on the test, see [Data Bus Test](TestManager.md#test-1-data-bus-test).
 
 **Example error:**
 ```
