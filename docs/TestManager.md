@@ -137,6 +137,10 @@ Example Usage:
 
 #### Test 1: Data Bus Test
 
+Write a pattern to 8 bytes starting at the address in A0. The first pattern is `00000001 FFFFFFFE` which is rotated left 256 times (`00000002 FFFFFFFD`, `00000004 FFFFFFFB`, etc.).
+
+If a bit does not match at any point, it is reflected in the minor error register D6.
+
 A0: Test address
 
 #### Test 2: Modulo 3 RAM Test
