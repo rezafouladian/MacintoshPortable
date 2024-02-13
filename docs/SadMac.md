@@ -78,7 +78,7 @@ Note: This test does not appear to ever result in a sad mac. The test is run but
 This error indicates a failure in reading and writing the first 8 bytes of RAM.
 A pattern is written and read 256 times, and any bit errors that occur are represented in the minor error register.
 
-Example error:
+**Example error:**
 ```
 0000000E
 000000FF
@@ -87,13 +87,15 @@ The lower byte (bits 0-7) failed to verify.
 
 This is test [*T 1](TestManager.md#test-1-data-bus-test) when run from the [Test Manager](TestManager.md).
 ### 0F - System error before error table loaded
-A system error occurred before the errors loaded.  
+A system error occurred before the errors were loaded. Normally you would see the "Sorry, a system error occurred" bomb screen, but that part of the OS has not loaded yet.  
 The minor error code indicates what error occurred.
-Example error:
+
+**Example error:**
 ```
 0000000F
 00000001
 ```
+The minor code `1` indicates a bus error.
 ### 10 - Power Manager Self Test
 Example error:
 ```
