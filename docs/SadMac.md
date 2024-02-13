@@ -34,6 +34,7 @@ This is test [*T 2](TestManager.md#test-2-modulo-3-ram-test) when run from the [
 ```
 Data bit 6 is marked as failed.
 <hr>
+
 ```
 00000003
 0000FF00
@@ -43,7 +44,7 @@ The upper 8 bits on the data bus (bits 8-15) are marked as failed. It's likely o
 ### 05 - Address Line Test
 This is test [*T 3](TestManager.md#test-3-address-line-test) when run from the [Test Manager](TestManager.md).
 
-Example error:
+**Example error:**
 ```
 00000005
 ????????
@@ -53,20 +54,38 @@ Example error:
 Example error:
 ```
 00000006
-
+????????
 ```
-### 08 - Data Bus Test
-This is test *T 1 when run from the [Test Manager](TestManager.md).
+### 08 - Data Bus Test (End of RAM)
+
+This error indicates a failure in reading and writing the last 8 bytes of RAM (where the computer has placed the stack after memory sizing).  
+A pattern is written and read 256 times, and any bit errors that occur are represented in the minor error register.
+
+**Example error:**
+```
+00000008
+0000FF00
+```
+The upper byte (bits 8-15) failed to verify.
+
+This is test [*T 1](TestManager.md#test-1-data-bus-test) when run from the [Test Manager](TestManager.md).
 ### 0B - SCSI Test
 Note: This test does not appear to ever result in a sad mac. The test is run but never checked for errors.
 ### 0C - SWIM Test
 Note: This test does not appear to ever result in a sad mac. The test is run but never checked for errors.
-### 0E - Data Bus Test
+### 0E - Data Bus Test (Start of RAM)
+
+This error indicates a failure in reading and writing the first 8 bytes of RAM.
+A pattern is written and read 256 times, and any bit errors that occur are represented in the minor error register.
+
 Example error:
 ```
 0000000E
-????????
+000000FF
 ```
+The lower byte (bits 0-7) failed to verify.
+
+This is test [*T 1](TestManager.md#test-1-data-bus-test) when run from the [Test Manager](TestManager.md).
 ### 0F - System error before error table loaded
 A system error occurred before the errors loaded.  
 The minor error code indicates what error occurred.
