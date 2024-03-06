@@ -78,10 +78,9 @@ Coming soon
 ### Apple ROM Card AP1234-02
 
 ### Second Wave ExpanSE Home BaSE
-This expansion system allowed the Portable to be "docked" and connected to an external chassis containing two SE PDS slots.
+![The ExpanSE Home BaSE connected to a Macintosh Portable](media/expanse_homebase.jpg){ width="15%"}
 
-??? note "Image"
-    ![The ExpanSE Home BaSE connected to a Macintosh Portable](media/expanse_homebase.jpg)
+This expansion system allowed the Portable to be "docked" and connected to an external chassis containing two SE PDS slots.
 
 ### Apple Battery Charger
 
@@ -92,8 +91,8 @@ This added a touch screen to the Macintosh Portable.
 
 ### Lind Electronic Design External Battery Charger
 
-### "Debug ROM Card"
+### "Debug ROM Card" (WIP)
 
-### "New Portable Numpad Module"
+### "New Portable Numpad Module" (WIP)
 
 ### DTACK Generator Card
