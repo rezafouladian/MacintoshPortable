@@ -29,6 +29,11 @@ Model: KTA-1000/MP (1MB) or KTA-4000/MP (4MB)
 ### Apple Macintosh Portable Video Adapter (Cancelled)
 
 ### Computer Care VideoMacPac
+The VideoMacPac was a video card that went in the PDS slot and allowed a second screen, unlike the regular video output on the Portable that mirrored the internal display.
+
+It appears to be heavily based off the Lapis DisplayServer based on the code.
+
+Also see the clone of this card, [VideoMacPacHack](https://github.com/apmcpherson/VideoMacPacHack/).
 
 ### Generation Systems Portable Publisher
 Generation Systems/Generation X Technologies
