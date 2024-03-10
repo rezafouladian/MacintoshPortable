@@ -1,6 +1,9 @@
 ## RAM Cards
 ### RAM Slot Cards
 
+#### Androda's 7MB RAM Card
+![](media/androda7MB.jpg){ width="15%"}
+
 #### Apple 1MB SRAM 630-4176
 
 #### Apple PSRAM 1MB/3MB 820-0662-01
@@ -12,6 +15,8 @@ This card was most commonly found with the Model M5126 Backlit Macintosh Portabl
 This card was expandable up to 8MB in size using 1MB SIPP SRAM modules.
 
 #### Computer Care PacRam
+![](media/pacram.jpg){ width="15%"}
+
 This 4MB card uses DRAM rather than SRAM or PSRAM.
 
 #### MacEffects 8MB RAM Card
