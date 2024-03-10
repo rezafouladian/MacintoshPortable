@@ -7,6 +7,22 @@ These error codes are specific to the Macintosh Portable and may not apply to ot
 
 When an issue is found during the critical tests on intial startup, the computer will display a "sad mac" icon with an error code indicating which test failed.
 
+## Error Structure
+
+Errors are displayed on screen as two sets of four bytes in hexidecimal.  
+
+In the top set of four bytes, the two bytes on the right are the major error code:  
+0000`0000`  
+00000000
+
+The bottom set of four bytes is the minor error code:  
+00000000  
+`00000000`
+
+The two bytes on the left of the top bytes are the [flag bits](#flag-bits):  
+`0000`0000  
+00000000
+
 ## Critical Tests
 Critical tests failing during startup tests will usually result in a "Sad Mac" screen and the computer will not continue booting.
 
@@ -99,13 +115,17 @@ The minor error code indicates what error occurred.
 ```
 The minor code `1` indicates a bus error.
 ### 10 - Power Manager Self Test
+The system attempted to run the self test on the power manager, but it either did not respond or the test failed.
+
+See [Power Manager Communication](#14---power-manager-communication) for minor error code meaning.
+
 Example error:
 ```
 00000010
-????????
+0000CD38
 ```
 ### 11 - Memory Sizing Test
-This is test *T 0 when run from the [Test Manager](TestManager.md).
+This is test [*T 0](TestManager.md#test-0-memory-sizing-test) when run from the [Test Manager](TestManager.md).
 
 Example error:
 ```
@@ -147,13 +167,54 @@ Example error:
 ```
 
 #### CD33 - During a receive, power manager did not finish a handshake
+Example error:
+```
+00000014
+0000CD33
+```
 #### CD34 - During a receive, power manager did not start a handshake
+Example error:
+```
+00000014
+0000CD34
+```
 #### CD35 - During a send, power manager did not finish a handshake
+Example error:
+```
+00000014
+0000CD35
+```
 #### CD36 - During a send, power manager did not start a handshake
+Example error:
+```
+00000014
+0000CD36
+```
 #### CD37 - Timed out waiting for reply to initial handshake
+Example error:
+```
+00000014
+0000CD37
+```
 #### CD38 - Power manager was never ready to start handshake
+Example error:
+```
+00000014
+0000CD38
+```
 ### 82 - VRAM Data Test
+Example error:
+```
+00000082
+????????
+```
 ### 83 - VRAM Address Test
+Example error:
+```
+00000083
+????????
+```
+
 
 ## Non-critical Tests
 Non-critical tests will typically not crash the computer when they fail and instead save the error for later.
@@ -216,7 +277,7 @@ To determine the flags, convert the major error register to binary. The high wor
 ### Bit 18 - Prevent automatic sleep
 ### Bit 19 - Star * received
 ### Bit 20 - ASCII input mode
-If this bit is set then the Test Manager input expects ASCII input.
+If this bit is set then the Test Manager input expects ASCII input.  
 If this bit is cleared then it expects hexadecimal input.
 ### Bit 21 - Echo enabled
 ### Bit 22 - Timer enabled
