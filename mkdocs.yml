@@ -37,6 +37,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+  features:
+    - search.suggest
 markdown_extensions:
   - footnotes
   - admonition
@@ -51,3 +53,4 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 plugins:
   - glightbox
+  - search
