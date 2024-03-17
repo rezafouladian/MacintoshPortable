@@ -29,6 +29,7 @@ Address Lines:
 | L | L | L | L | x |
 
 ## Expansion RAM
+Space allocated for up to 8MB of expansion RAM.
 
 Address Space: 0x100000-0x8FFFFF  
 Size: 8MB (0x800000)
