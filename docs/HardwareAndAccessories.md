@@ -4,6 +4,10 @@
 #### Androda's 7MB RAM Card
 ![](media/androda7MB.jpg){ width="15%"}
 
+[https://androda.work/product/macintosh-portable-7-megabyte-ram-card/](https://androda.work/product/macintosh-portable-7-megabyte-ram-card/)
+
+This 7MB RAM card is a modern design using PSRAM.
+
 #### Apple 1MB SRAM 630-4176
 
 #### Apple PSRAM 1MB/3MB 820-0662-01
@@ -15,7 +19,7 @@ This card was most commonly found with the Model M5126 Backlit Macintosh Portabl
 This card was expandable up to 8MB in size using 1MB SIPP SRAM modules.
 
 #### Computer Care PacRam
-![](media/pacram.jpg){ width="15%"}
+![](media/pacram.jpg){ width="15%" }
 
 This 4MB card uses DRAM rather than SRAM or PSRAM.
 
@@ -28,6 +32,8 @@ Model: KTA-1000/MP (1MB) or KTA-4000/MP (4MB)
 ### PDS RAM Cards
 
 #### PSI
+
+This card is expandable up to 8MB using stacking add-on boards.
 
 ## Video Adapters
 
@@ -88,7 +94,7 @@ Coming soon
 ### Apple ROM Card AP1234-02
 
 ### Second Wave ExpanSE Home BaSE
-![The ExpanSE Home BaSE connected to a Macintosh Portable](media/expanse_homebase.jpg){ width="15%"}
+![The ExpanSE Home BaSE connected to a Macintosh Portable](media/expanse_homebase.jpg){ width="15%" }
 
 This expansion system allowed the Portable to be "docked" and connected to an external chassis containing two SE PDS slots.
 
