@@ -2,11 +2,13 @@
 
 ### CPU - 68HC000
 
-Designator:
+Designator: U12D
 
-Package: 
+Package: PLCC-68
 
-Type: Motorola 68HC000
+Type: Motorola 68HC000 16MHz
+
+Part Number: MC68HC000FN12F
 
 ### CPU GLU
 
@@ -18,6 +20,8 @@ Package: PLCC-84
 
 Type: Custom VLSI ASIC
 
+Apple Part Number: 344S0608-02
+
 See also: [CPU GLU](CPUGLU.md)
 
 ### MISC GLU
@@ -27,6 +31,8 @@ Designator: U12G
 Package: PLCC-84
 
 Type: Custom VLSI ASIC
+
+Apple Part Number: 34460610-1
 
 ### VIA
 
@@ -46,7 +52,13 @@ Package: PLCC-84
 
 Type: Custom VLSI ASIC
 
+Apple Part Number: 344S0609-01
+
 ### Power Manager
+
+Type: Mitsubishi M50753 Microcontroller
+
+Apple Part Number: 342S0753-A
 
 ### 85C30
 
@@ -56,6 +68,8 @@ Designator: U10H
 
 Designator: U12K
 
+Apple Part Number: 342S0740-2
+
 ### SCSI
 
 Designator: 
@@ -64,7 +78,11 @@ Type: 53C80
 
 ### SWIM
 
+Apple Part Number: 344S1029
+
 ### ASC
+
+Apple Part Number: 344S0063-1
 
 ## Other ICs
 
