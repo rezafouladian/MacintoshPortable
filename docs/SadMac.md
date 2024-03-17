@@ -276,6 +276,7 @@ To determine the flags, convert the major error register to binary. The high wor
 ### Bit 17 - SCC is INITed
 ### Bit 18 - Prevent automatic sleep
 ### Bit 19 - Star * received
+This bit is set when a star/asterisk has been received, used to start a Test Manager command.
 ### Bit 20 - ASCII input mode
 If this bit is set then the Test Manager input expects ASCII input.  
 If this bit is cleared then it expects hexadecimal input.
