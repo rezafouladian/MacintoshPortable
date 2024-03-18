@@ -14,6 +14,8 @@ This 7MB RAM card is a modern design using PSRAM.
 
 This card was most commonly found with the Model M5126 Backlit Macintosh Portable.
 
+The same board is used for both the 1MB and 3MB variants, just with less PSRAM populated.
+
 #### Applied Engineering MacRam Portable
 
 This card was expandable up to 8MB in size using 1MB SIPP SRAM modules.
@@ -25,9 +27,13 @@ This 4MB card uses DRAM rather than SRAM or PSRAM.
 
 #### MacEffects 8MB RAM Card
 
-#### Kingston 1MB/4MB
+[https://maceffects.com/products/8mb-memory-upgrade-for-macintosh-portable-m5120-m5126](https://maceffects.com/products/8mb-memory-upgrade-for-macintosh-portable-m5120-m5126)
 
-Model: KTA-1000/MP (1MB) or KTA-4000/MP (4MB)
+#### Kingston 1MB/3MB/4MB
+
+Model: KTA-1000/MP (1MB), KTA-3000/MP or KTA-4000/MP (4MB)
+
+The same board is used for the 1MB, 3MB, and 4MB variants.
 
 ### PDS RAM Cards
 
