@@ -216,3 +216,28 @@ See also: [CPU GLU RAM Mapping Registers](CPUGLU.md#ram-mapping-registers)
 #### Test 8A: PRAM Test
 
 This test does not do anything and always fails.
+
+## Running from a Debugger
+
+You can also run the tests from a debugger such as MacsBug or MicroBug.
+
+As an example, here is running the [March RAM Test](#test-6-march-ram-test) on the 3rd megabyte of RAM:
+
+Set the start memory address to test to the beginning of the 3rd megabyte of RAM:  
+`A0 200000`
+
+Set the end address to the end of the 3rd megabyte:  
+`A1 2FFFFF`
+
+Set the return address to the interrupt handler to return to the debugger:  
+`A6 90380A`
+
+Set the Program Counter to the test location:  
+`PC 901F90`
+
+Run the test:  
+`G` 
+
+Once the test is finished, you should be returned to the debugger.  
+You can now display the result from the appropriate register:  
+`D6` 
