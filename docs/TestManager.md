@@ -135,6 +135,8 @@ Example Usage:
 
 #### Test 0: Memory Sizing Test
 
+Location in ROM: `0x903EA6`
+
 #### Test 1: Data Bus Test
 
 Write a pattern to 8 bytes starting at the address in A0. The first pattern is `00000001 FFFFFFFE` which is rotated left 256 times (`00000002 FFFFFFFD`, `00000004 FFFFFFFB`, etc.).
@@ -142,6 +144,8 @@ Write a pattern to 8 bytes starting at the address in A0. The first pattern is `
 If a bit does not match at any point, it is reflected in the minor error register D6.
 
 A0: Test address
+
+Location in ROM: `0x901CD6`
 
 #### Test 2: Modulo 3 RAM Test
 
@@ -155,11 +159,17 @@ Example Usage:
 *T000200010000
 ```
 
+Location in ROM: `0x901D2A`
+
 #### Test 3: Address Line Test
+
+Location in ROM: `0x901FEE`
 
 #### Test 4: ROM Test
 
 This test calculates a checksum individually for the two ROM chips.
+
+Location in ROM: `0x901F22`
 
 #### Test 5: Reverse Modulo 3 RAM Test
 
@@ -173,6 +183,8 @@ Example Usage:
 *T000500010000
 ```
 
+Location in ROM: `0x901E2E`
+
 #### Test 6: March RAM Test
 
 [A0](#0---load-a0): Start address  
@@ -185,6 +197,8 @@ Example Usage:
 *T000600010000
 ```
 
+Location in ROM: `0x901F90`
+
 ### *N - Run Non-critical Test
 
 Input: 6 Bytes
@@ -193,29 +207,51 @@ Input: 6 Bytes
 
 See also: [CPU GLU RAM Mapping Registers](CPUGLU.md#ram-mapping-registers)
 
+Location in ROM: `0x90210E`
+
 #### Test 81: Mapper RAM Uniqueness Test
 
 See also: [CPU GLU RAM Mapping Registers](CPUGLU.md#ram-mapping-registers)
 
+Location in ROM: `0x90215A`
+
 #### Test 82: VRAM Data Test
+
+Location in ROM: `0x9020E2`
 
 #### Test 83: VRAM Address Test
 
+Location in ROM: `0x902068`
+
 #### Test 84: SCC Register Test
+
+Location in ROM: `0x902322`
 
 #### Test 85: SCC Loop Test
 
+Location in ROM: `0x90229A`
+
 #### Test 86: SCC Timer Test
+
+Location in ROM: `0x90235A`
 
 #### Test 87: VIA Test
 
+Location in ROM: `0x902444`
+
 #### Test 88: SCSI Test
 
+Location in ROM: `0x9025C2`
+
 #### Test 89: ASC Test
+
+Location in ROM: `0x9026A6`
 
 #### Test 8A: PRAM Test
 
 This test does not do anything and always fails.
+
+Location in ROM: `0x9027DE`
 
 ## Running from a Debugger
 
