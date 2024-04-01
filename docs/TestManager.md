@@ -145,6 +145,12 @@ If a bit does not match at any point, it is reflected in the minor error registe
 
 A0: Test address
 
+Example Usage:
+```
+*000100000
+*T000100010000
+```
+
 Location in ROM: `0x901CD6`
 
 #### Test 2: Modulo 3 RAM Test
