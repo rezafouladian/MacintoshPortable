@@ -45,6 +45,8 @@ This card is expandable up to 8MB using stacking add-on boards.
 
 ### Apple Macintosh Portable Video Adapter (Cancelled)
 
+The codename for this adapter or video output capability on the Portable appears to have been "Topanga".
+
 ### Computer Care VideoMacPac
 The VideoMacPac was a video card that went in the PDS slot and allowed a second screen, unlike the regular video output on the Portable that mirrored the internal display.
 
