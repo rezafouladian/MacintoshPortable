@@ -1,3 +1,15 @@
+# CPU GLU
+
+The CPU GLU was also known as the "Normandy Decoder".
+
+## /DTACK Generation
+
+The CPU GLU generates /DTACK for the following memory regions:
+- Permanent RAM and Expansion RAM (0x000000-0x8FFFFF)
+    - The M5126 generates /DTACK for 0x000000-0x4FFFFF before the CPU GLU does
+- Permanent ROM (0x900000-0x9FFFFF)
+- Most peripheral addresses (0xF60000-0xFEFFFF)
+
 ## RAM Mapping Registers
 
 These 16 registers are in the low bytes starting at 0xFC0000 (0xFC0001, 0xFC0003, etc.)  
@@ -26,3 +38,9 @@ Tests [80 and 81](TestManager.md#test-80-mapper-ram-data-test) in the Test Manag
 
 ## RAM Config Register
 This 3 bit register is at 0xFE0200. Function is unknown. Setting the first bit (bit 0) seems to freeze the system.
+
+## Slim /DTACK Load Register
+
+0xFC0200
+
+Memory access to the Slim Card region of memory (0x500000-0x8FFFFF) has a longer /DTACK delay until the first access of this register.
