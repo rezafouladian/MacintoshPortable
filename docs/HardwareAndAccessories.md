@@ -108,6 +108,14 @@ This expansion system allowed the Portable to be "docked" and connected to an ex
 
 ### Apple Battery Charger
 
+### Apple Macintosh Portable Japanese Upgrade Kit
+
+![The Japanese Upgrade Kit, in box](media/jpnupgrade.jpg){ width="15%" data-title="The Japanese Upgrade Kit, in box" data-description="Source: Yahoo Auctions Japan" }
+
+Alternate Name: Apple Macintosh Portable 日本語アップグレードキット
+
+The contents of this kit are unknown.
+
 ### Creative Solutions ROM Expansion Card
 
 ### MicroTouch Mac 'n Touch
