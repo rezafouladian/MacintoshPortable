@@ -66,12 +66,7 @@ This is test [*T 3](TestManager.md#test-3-address-line-test) when run from the [
 ????????
 ```
 ### 06 - VIA Test
-
-Example error:
-```
-00000006
-????????
-```
+Note: This test does not appear to ever result in a sad mac. The "test" is run but never checked for errors.
 ### 08 - Data Bus Test (End of RAM)
 
 This error indicates a failure in reading and writing the last 8 bytes of RAM (where the computer has placed the stack after memory sizing).  
@@ -87,9 +82,9 @@ The upper byte (bits 8-15) failed to verify.
 
 This is test [*T 1](TestManager.md#test-1-data-bus-test) when run from the [Test Manager](TestManager.md).
 ### 0B - SCSI Test
-Note: This test does not appear to ever result in a sad mac. The test is run but never checked for errors.
+Note: This test does not appear to ever result in a sad mac. The "test" is run but never checked for errors.
 ### 0C - SWIM Test
-Note: This test does not appear to ever result in a sad mac. The test is run but never checked for errors.
+Note: This test does not appear to ever result in a sad mac. The "test" is run but never checked for errors.
 ### 0E - Data Bus Test (Start of RAM)
 
 This error indicates a failure in reading and writing the first 8 bytes of RAM.
