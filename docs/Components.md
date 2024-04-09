@@ -262,7 +262,7 @@ A 3D printed replacement is also available [here](https://www.thingiverse.com/th
 #### Z661-0477 - Keypad, Numeric, International Z Version, Original Portable
 ![](media/parts/Z661-0477.jpg){ width="160px" }
 #### Z661-1611 - Keypad, Numeric, International Z Version, Lightweight
-![](media/parts/TZ661-1611.jpg){ width="160px" }
+![](media/parts/Z661-1611.jpg){ width="160px" }
 
 ### Other/Unsorted
 
