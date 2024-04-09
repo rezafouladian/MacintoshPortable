@@ -1,46 +1,28 @@
-???+ Abstract "Initial Startup"
-
-    - Disable processor interrupts
-    - Set the speed register to run at full speed
-    - Set the RAM config register (unknown)
-    - Check if resuming from sleep
-
-???+ Abstract "Initial Tests"
-
-    - Set stack pointer to 0x2000
-    - Clear error flag registers
-    - Copy test code to RAM
-    - Check for diagnostic ROM and execute if found (1)
-        { .annotate }
-
-        1.  0xF80000 is checked to see if it contains 0x55AAAA55, and executes code at 0xF80004 if found.
-    - VIA test
-    - Power Manager test
-    - Test 0x10
-    - Test 0x83
-    - Test 0x82
-    - SCSI test
-    - SWIM test
-    - Data bus test
-    - Memory sizing
-    - Play boot chime
-    - Non-critical tests
-    - Finish up error handling
-
-???+ Abstract "Initialize Hardware"
-
-    - Initialize VIA
-    - Initialize SCC
-    - Initialize SWIM
-    - Initialize SCSI
-
-???+ Abstract "Untitled"
-
-    - Check what CPU we're running on
-    - Check what logic board we're running on
-    - Test RAM
-    - Check for diagnostic ROM and execute if found (1)
-        { .annotate }
-
-        1. 0xF80080 is checked to see if it contains 0x55AAAA55, and executes code at 0xF80084 if found.  
-        This check likely happens because the first check at 0xF80000 is skipped if resuming from sleep.
+``` mermaid
+graph TD
+    A["Power On"];
+    A --> B[Returning from sleep?];
+    B -->|No| C[Test ROM?];
+    C -->|No| D[VIA Setup];
+    C -->|Yes| E[Run Test ROM];
+    E --> D;
+    D ---> F[Power Manager Communication];
+    F -->|Fail| H[Error 0x14];
+    F ---> I[Power on SWIM, SCC, Serial, -5V];
+    I -->|Fail| H;
+    I --> J[ROM Checksum];
+    J -->|Fail| K[Error 0x1];
+    J --->|Pass| L[Power Manager Self Test];
+    L -->|Fail| M[Error 0x10];
+    L --->|Pass| N[VRAM Address Test];
+    N -->|Fail| O[Error 0x83];
+    N --->|Pass| P[VRAM Data Test];
+    P -->|Fail| Q[Error 0x82];
+    P --->|Pass| R[SCSI Test];
+    R --> S[SWIM Test];
+    S --> T[Data Bus Test];
+    T -->|Fail| U[Error 0xE];
+    T --->|Pass| V[Memory Sizing];
+    V -->|Fail| W[Error 0x11];
+    V --->|Pass| X[Non-Critical Tests];
+```
