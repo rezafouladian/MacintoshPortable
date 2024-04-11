@@ -45,6 +45,8 @@ This card is expandable up to 8MB using stacking add-on boards.
 
 ### Apple Macintosh Portable Video Adapter (Cancelled)
 
+![](media/topanga.jpg){ width="15%" }
+
 The codename for this adapter or video output capability on the Portable appears to have been "Topanga".
 
 ### Computer Care VideoMacPac
