@@ -12,7 +12,7 @@ Part Number: MC68HC000FN12F
 
 ### CPU GLU
 
-Also known as: CPU CAD, Normandy
+Also known as: CPU CAD, Coarse Address Decode, Normandy
 
 Designator: U10D
 
@@ -25,6 +25,8 @@ Apple Part Number: 344S0608-02
 See also: [CPU GLU](CPUGLU.md)
 
 ### MISC GLU
+
+Also known as: Fine Address Decode
 
 Designator: U12G
 

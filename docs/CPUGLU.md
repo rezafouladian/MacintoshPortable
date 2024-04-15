@@ -1,6 +1,6 @@
 # CPU GLU
 
-The CPU GLU was also known as the "Normandy Decoder".
+The CPU GLU was also known as the "Normandy Decoder", "Normandy ASIC", "CPU CAD", and "Coarse Address Decode".
 
 ## /DTACK Generation
 
