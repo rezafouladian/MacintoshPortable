@@ -118,6 +118,24 @@ Designator:
 
 ## Resistors
 
+#### RP201
+
+Appears as Bourns 4816P-E41-000 or Dale 112S0600
+
+Layout is an isolated resistor network.
+
+![](media/4816P-1.png)
+
+Values:  
+R1 430k  
+R2 360k  
+R3 1.37k  
+R4 845k  
+R5 320k  
+R6 100k  
+R7 100k  
+R8 100k
+
 ## Transistors
 
 ## Diodes
