@@ -5,6 +5,7 @@ nav:
   - Home: index.md
   - Troubleshooting:
     - Sad Mac Errors: SadMac.md
+    - Startup Sequence: StartupSequence.md
     - Testing: Testing.md
     - Display: 
       - Display Testing: DisplayTesting.md
@@ -18,7 +19,6 @@ nav:
     - 9MB of RAM on the M5126: M5126-9MB.md
     - Slim Cards: SlimCards.md
     - Unsorted: Unsorted.md
-    - Startup Sequence: StartupSequence.md
 theme:
   name: material
   palette:
