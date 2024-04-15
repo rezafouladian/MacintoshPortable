@@ -1,3 +1,5 @@
+You can click on the error codes in the diagram to reach the matching error in the ["Sad Mac"](SadMac.md) page.
+
 ``` mermaid
 graph TD
     A["Power On"];
@@ -25,4 +27,11 @@ graph TD
     T --->|Pass| V[Memory Sizing];
     V -->|Fail| W[Error 0x11];
     V --->|Pass| X[Non-Critical Tests];
+    click H "/SadMac/#14-power-manager-communication";
+    click M "/SadMac/#10-power-manager-self-test";
+    click K "/SadMac/#01-rom-test";
+    click O "/SadMac/#83-vram-address-test";
+    click Q "/SadMac/#82-vram-data-test";
+    click U "/SadMac/#0e-data-bus-test-start-of-ram";
+    click W "/SadMac/#11-memory-sizing-test";
 ```
