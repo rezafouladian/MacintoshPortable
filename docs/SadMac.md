@@ -9,7 +9,7 @@ When an issue is found during the critical tests on intial startup, the computer
 
 ## Error Structure
 
-Errors are displayed on screen as two sets of four bytes in hexidecimal.  
+Errors are displayed on screen as two sets of four bytes in hexadecimal.  
 
 In the top set of four bytes, the two bytes on the right are the major error code:  
 0000`0000`  
