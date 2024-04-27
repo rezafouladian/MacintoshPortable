@@ -97,6 +97,10 @@ Coming soon
 
 ## Other Hardware
 
+### Androda's Macintosh Portable Battery Eliminator
+
+[https://androda.work/product/macintosh-portable-battery-eliminator/](https://androda.work/product/macintosh-portable-battery-eliminator/)
+
 ### Apple Numpad Module
 
 ### Apple Backlight Upgrade
