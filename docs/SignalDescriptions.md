@@ -8,7 +8,7 @@ Connected to:
 
 ## ACC(0), ACC(1), SLIM_SEL [ACC(2)]
 
-Connected to:
+Connected to: PDS Connector J12, RP4 Pull-down
 
 ## <span style="text-decoration:overline">AS</span>
 
@@ -36,6 +36,8 @@ Connected to:
 
 ## <span style="text-decoration:overline">EXT_DTACK</span>
 
+Alternative Name Appearances: EXT_DTACK*, /EXT_DTACK
+
 ## FC0, FC1, FC2
 
 ## FPDATA(0) - FPDATA(7)
@@ -56,11 +58,17 @@ Pull-up: R155 to +5V (Always on)
 
 ## RD0 - RD15
 
+Permanent RAM data lines
+
 ## R/<span style="text-decoration:overline">W</span>
 
 ## <span style="text-decoration:overline">RAM_OE</span>
 
+Alternative Name Appearances: RAM_OE*, /RAM_OE
+
 ## <span style="text-decoration:overline">RESET</span>
+
+Alternative Name Appearances: RESET*, /RESET
 
 Pull-up: R156 to +5V (Always on)
 
