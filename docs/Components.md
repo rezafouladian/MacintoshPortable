@@ -100,19 +100,23 @@ Apple Part Number: 344S0063-1
 
 ### RAM and ROM Connectors
 
-Designator: 
+Designator: J10, J11
+
+Part Number: TE Connectivity AMPMODU 5-534978-8 (Compatible)
 
 ### PDS Connector
 
-Designator: 
+Designator: J12
 
 ### Modem Connector
 
-Designator:
+Designator: J9
 
 ## Capacitors
 
 ### Electrolytic Capacitors
+
+**C16**
 
 ### Tantalum Capacitors
 
