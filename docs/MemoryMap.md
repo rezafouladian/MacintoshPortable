@@ -59,6 +59,9 @@ Address Space: 0xE00000-0xEFFFFF
 
 Address Space: 0xF00000-0xF5FFFF
 
+See Also:  
+[Slim Card Registers](SlimCards.md#slim-card-registers)
+
 ## SWIM
 
 Address Space: 0xF60000-0xF6FFFF
@@ -70,6 +73,8 @@ Address Space: 0xF70000-0xF7FFFF
 ## ROM Diagnostics
 
 Address Space: 0xF80000-0xF8FFFF
+
+The system checks for diagnostic ROMs at this location.
 
 ## SCSI
 
@@ -86,6 +91,9 @@ Address Space: 0xFB0000-0xFBFFFF
 ## Slot Configure
 
 Address Space: 0xFC0000-0xFCFFFF
+
+See Also:  
+[CPU GLU](CPUGLU.md)
 
 ## SCC
 
