@@ -95,6 +95,9 @@ Address Space: 0xFD0000-0xFDFFFF
 
 Address Space: 0xFE0000-0xFEFFFF
 
+See Also:  
+[Idle Speed Register](CPUGLU.md#idle-speed-register)
+
 ## Auto-vector Read, VPA
 
 Address Space: 0xFF0000-0xFFFFFF

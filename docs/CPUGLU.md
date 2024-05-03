@@ -45,3 +45,5 @@ This 3 bit register is at 0xFE0200. Function is unknown. Setting the first bit (
 0xFC0200
 
 Memory access to the Slim Card region of memory (0x500000-0x8FFFFF) has a longer /DTACK delay until the first access of this register.
+
+## Idle Speed Register
