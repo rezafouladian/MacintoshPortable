@@ -5,8 +5,9 @@ The CPU GLU was also known as the "Normandy Decoder", "Normandy ASIC", "CPU CAD"
 ## /DTACK Generation
 
 The CPU GLU generates /DTACK for the following memory regions:
+
 - Permanent RAM and Expansion RAM (0x000000-0x8FFFFF)
-    - The M5126 generates /DTACK for 0x000000-0x4FFFFF before the CPU GLU does
+    - The M5126 generates /DTACK for 0x000000-0x4FFFFF before the CPU GLU does.
 - Permanent ROM (0x900000-0x9FFFFF)
 - Most peripheral addresses (0xF60000-0xFEFFFF)
 
