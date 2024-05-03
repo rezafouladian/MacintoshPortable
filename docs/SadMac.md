@@ -285,5 +285,5 @@ If this bit is set then a new line/CRLF is sent after each message.
 ### Bit 27 - Bus errors OK
 ### Bit 28 - Stop on error
 ### Bit 29 - Loop on error
-### Bit 30 -
-### Bit 31 - 
+### Bit 30 - Store results in PRAM
+### Bit 31 - Boot after test finishes
