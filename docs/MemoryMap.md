@@ -64,9 +64,13 @@ Address Lines:
 ## Expansion ROM
 This 4MB of address space is reserved for ROM expansion.
 
+Address Space: 0xA00000-0xDFFFFF  
+Size: 4MB
+
 ## PDS ROM
 
-Address Space: 0xE00000-0xEFFFFF
+Address Space: 0xE00000-0xEFFFFF  
+Size: 1MB
 
 ## Reserved (Unknown)
 
@@ -77,51 +81,61 @@ See Also:
 
 ## SWIM
 
-Address Space: 0xF60000-0xF6FFFF
+Address Space: 0xF60000-0xF6FFFF  
+Size: 64KB
 
 ## VIA
 
-Address Space: 0xF70000-0xF7FFFF
+Address Space: 0xF70000-0xF7FFFF  
+Size: 64KB
 
 ## ROM Diagnostics
 
-Address Space: 0xF80000-0xF8FFFF
+Address Space: 0xF80000-0xF8FFFF  
+Size: 64KB
 
 The system checks for diagnostic ROMs at this location.
 
 ## SCSI
 
-Address Space: 0xF90000-0xF9FFFF
+Address Space: 0xF90000-0xF9FFFF  
+Size: 64KB
 
 ## Video
 
-Address Space: 0xFA0000-0xFAFFFF
+Address Space: 0xFA0000-0xFAFFFF  
+Size: 64KB
 
 ## Sound
 
-Address Space: 0xFB0000-0xFBFFFF
+Address Space: 0xFB0000-0xFBFFFF  
+Size: 64KB
 
 ## Slot Configure
 
-Address Space: 0xFC0000-0xFCFFFF
+Address Space: 0xFC0000-0xFCFFFF  
+Size: 64KB
 
 See Also:  
 [CPU GLU](CPUGLU.md)
 
 ## SCC
 
-Address Space: 0xFD0000-0xFDFFFF
+Address Space: 0xFD0000-0xFDFFFF  
+Size: 64KB
 
 ## Normal/Idle Mode, Test
 
-Address Space: 0xFE0000-0xFEFFFF
+Address Space: 0xFE0000-0xFEFFFF  
+Size: 64KB
 
 See Also:  
 [Idle Speed Register](CPUGLU.md#idle-speed-register)
 
 ## Auto-vector Read, VPA
 
-Address Space: 0xFF0000-0xFFFFFF
+Address Space: 0xFF0000-0xFFFFFF  
+Size: 64KB
 
 
 
