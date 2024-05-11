@@ -127,6 +127,8 @@ Example error:
 00000011
 ????????
 ```
+
+It seems like this error code can also be displayed if the PRAM read step directly after memory sizing in the startup sequence fails.
 ### 14 - Power Manager Communication
 
 ??? note "Power Manager Communication Flowchart"
