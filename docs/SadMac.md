@@ -128,7 +128,7 @@ Example error:
 ????????
 ```
 
-It seems like this error code can also be displayed if the PRAM read step directly after memory sizing in the startup sequence fails.
+It seems like this error code can also be displayed if the PRAM read step directly after memory sizing in the startup sequence fails. If this happens a Power Manager Communication error should appear in the minor register.
 ### 14 - Power Manager Communication
 
 ??? note "Power Manager Communication Flowchart"
