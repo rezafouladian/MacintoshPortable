@@ -112,6 +112,20 @@ Designator: J12
 
 Designator: J9
 
+### Battery Connector
+
+Designator: J17
+
+Part Number: Molex Mini-Fit Jr. 39-28-1043
+
+Mating Connector: Molex Mini-Fit Jr. 39-01-2040
+
+### SCSI Connector
+
+Designator: J18
+
+### Keyboard/Trackball Connectors
+
 ## Capacitors
 
 ### Electrolytic Capacitors
