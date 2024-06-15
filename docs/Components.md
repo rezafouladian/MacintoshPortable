@@ -144,7 +144,7 @@ Appears as Bourns 4816P-E41-000 or Dale 112S0600
 
 Layout is an isolated resistor network.
 
-![](media/4816P-1.png)
+![](media/4816P-1.png){ width="160px" }
 
 Values:  
 R1 430k  
