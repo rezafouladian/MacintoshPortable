@@ -27,13 +27,21 @@ Example Usage:
 
 ### *B - Set Byte Count
 
-Load a value into data register D4, for use in other commands.
+Load a value into data register D4, for use in other commands such as `*D` or `*M`.
 
 Input: 2 Bytes
 
 ### *D - Get Data
 
+Load data from the serial input at location A4, for a length of D4 bytes.
+
+A checksum is placed in result register D6.
+
 ### *C - Checksum
+
+Checksum data at location A4 for D4 bytes.
+
+The checksum is returned in result register D6.
 
 ### *G - Execute
 
@@ -68,7 +76,7 @@ Example Usage:
 *100200000
 ```
 
-### *4 - Clear D6/D7
+### *4 - Clear Result Registers D6/D7
 
 Clears the error result registers in D6 and D7.
 
@@ -80,7 +88,11 @@ Prevents the computer from sleeping automatically.
 
 ### *A - ASCII Mode
 
+Switch to ASCII input mode for commands like `*D`, `*G`, `*T`, etc.
+
 ### *H - Hex Mode
+
+Switch to Hexadecimal input mode for commands like `*D`, `*G`, `*T`, etc.
 
 ### *R - Send Test Results
 
