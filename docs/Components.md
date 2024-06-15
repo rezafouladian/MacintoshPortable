@@ -140,7 +140,7 @@ Designator: J18
 
 #### RP201
 
-Appears as Bourns 4816P-E41-000 or Dale 112S0600
+RP201 appears as Bourns part number 4816P-E41-000 or Dale part number 112S0600.
 
 Layout is an isolated resistor network.
 
