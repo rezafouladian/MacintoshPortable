@@ -82,9 +82,11 @@ Clears the error result registers in D6 and D7.
 
 ### *5 - Display Boot Message
 
+Start the repeating boot message normally shown when entering Test Manager with VIA_TEST.
+
 ### *7 - Prevent Sleep
 
-Prevents the computer from sleeping automatically.
+Prevents the computer from sleeping automatically (typically only for computers on battery).
 
 ### *A - ASCII Mode
 
@@ -114,7 +116,11 @@ Example Usage:
 
 ### *E - Echo On
 
+Enables echoing of command input.
+
 ### *I - Restart Test Manager
+
+Restarts Test Manager. This will cause the system to boot if VIA_TEST is not asserted and the system does not encounter any test errors.
 
 ### *P - Power Manager Command
 
