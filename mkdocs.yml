@@ -19,6 +19,11 @@ nav:
     - 9MB of RAM on the M5126: M5126-9MB.md
     - Slim Cards: SlimCards.md
     - Unsorted: Unsorted.md
+  - Outbound Laptop:
+    - Home: outbound/index.md
+    - Floppy Drive: outbound/Floppy.md
+    - ROM Patches: outbound/ROMPatches.md
+    - Pictures: outbound/Pictures.md
 theme:
   name: material
   palette:
