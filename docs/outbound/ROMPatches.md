@@ -1,4 +1,10 @@
+## Known ROM Versions
 
+1.1  
+1.2.1  
+1.3b2
+
+## Startup Patching
 
 The Outbound contains EEPROMs placed in Apple's "Test Software" address space.
 
