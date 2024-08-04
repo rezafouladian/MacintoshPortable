@@ -38,16 +38,18 @@ The PCB in the Citizen U0DA-07A appears to have the part number C70-1070.
 
 ## Internal Floppy Interposer
 
+![](media/interposer.jpg){ width="50%" }
+
 ### Components
 
 | Designator | Type | Value |
 | --- | --- | --- |
-| | | 85C30 |
-| | | WD92C32 |
-| | | 74HC14 |
-| | | X9103P |
-| | | WD37C65 |
-| | | 74AC32 |
-| | | 74LS624 |
-| | | 74HC14 |
-| | | 74HCT74 |
+| | Serial Communications Controller | 85C30 |
+| | Floppy Data Seperator | WD92C32 |
+| | Potentiometer | X9103P |
+| | Floppy Controller | WD37C65 |
+| | OR Gate | 74AC32 |
+| | Voltage Controled Oscillator | 74LS624 |
+| | Hex Inverter | 74HC14 |
+| | Dual D-type Flip-flop | 74HCT74 |
+| | Capacitor, Electrolytic Axial | 68uF 10V |
