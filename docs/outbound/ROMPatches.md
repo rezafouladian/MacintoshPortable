@@ -19,3 +19,4 @@ Here is an example of the check from the v1 Macintosh Plus ROM:
     jmp     (A0)
 ```
 
+This ROM code then does setup for the Outbound hardware, and enables the trace bit on the 68000. This causes code to run after every instruction that checks the address of the instruction and jumps to patched code if it matches.
