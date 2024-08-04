@@ -8,10 +8,10 @@ The PCB in the Citizen U0DA-07A appears to have the part number C70-1070.
 
 | Designator | Type | Value |
 | --- | --- | --- |
-| C35 | Capacitor, Electrolytic | 2.2uF 35V |
-| C39 | Capacitor, Electrolytic | 10uF 16V |
-| C101 | Capacitor, Electrolytic | 22uF 16V |
-| C102 | Capacitor, Electrolytic | 22uF 16V |
+| C35 | Capacitor, Electrolytic SMD | 2.2uF 35V |
+| C39 | Capacitor, Electrolytic SMD | 10uF 16V |
+| C101 | Capacitor, Electrolytic SMD | 22uF 16V |
+| C102 | Capacitor, Electrolytic SMD | 22uF 16V |
 | R36 | Resistor | 330Ω |
 | R67 | Resistor | 1kΩ |
 | IC2 | | TC8615F-003 |
@@ -35,3 +35,19 @@ The PCB in the Citizen U0DA-07A appears to have the part number C70-1070.
 | 21 | GND | \| | 22 | /WPROTECT |
 | 23 | GND | \| | 24 | /RDATA |
 | 25 | GND | \| | 26 | /SIDE |
+
+## Internal Floppy Interposer
+
+### Components
+
+| Designator | Type | Value |
+| --- | --- | --- |
+| | | 85C30 |
+| | | WD92C32 |
+| | | 74HC14 |
+| | | X9103P |
+| | | WD37C65 |
+| | | 74AC32 |
+| | | 74LS624 |
+| | | 74HC14 |
+| | | 74HCT74 |
