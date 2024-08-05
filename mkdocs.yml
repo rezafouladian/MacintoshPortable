@@ -23,7 +23,7 @@ nav:
     - Home: outbound/index.md
     - Floppy Drive: outbound/Floppy.md
     - ROM Patches: outbound/ROMPatches.md
-    - Pictures: outbound/Pictures.md
+    - Keyboard: outbound/Keyboard.md
 theme:
   name: material
   palette:
