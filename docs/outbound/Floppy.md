@@ -20,6 +20,8 @@ The PCB in the Citizen U0DA-07A appears to have the part number C70-1070.
 
 ### Connector
 
+![The connector on the floppy drive](media/floppydriveconnector.jpg){ width="20%" data-title="The connector on the floppy drive" } ![The connector on the floppy interposer](media/floppyinterposerconnector.jpg){ width="17%" data-title="The connector on the floppy interposer"}
+
 | Pin | Signal | \| | Pin | Signal |
 | --- | --- | --- | --- | --- |
 | 1 | VCC | \| | 2 | /INDEX |
