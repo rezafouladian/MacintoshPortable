@@ -8,6 +8,14 @@ The PCB in the Citizen U0DA-07A appears to have the part number C70-1070.
 
 The drive is a "Slim" 3.5" drive, measuring around 19.5mm x 101.5mm x 134mm.
 
+### Floppy Drive Issues
+
+This model of Citizen drive has issues with the drive belt disintegrating as well as the electrolytic capacitors leaking.
+
+For the belt I ended up using a 3mm wide flat belt out of an assortment of 3mm wide belt sizes purchased from Amazon. I don't know the exact size of the belt I used but I estmate the length is probably around 260mm.
+
+The four electrolytic capacitors (C35, C39, C101, C102) will need to be replaced as they have likely leaked.
+
 ### Components
 
 | Designator | Type | Value |
