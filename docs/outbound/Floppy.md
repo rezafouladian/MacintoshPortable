@@ -2,7 +2,11 @@
 
 ## Internal Floppy
 
+![](media/floppytop.jpg){ width="15%" } ![](media/floppybottom.jpg){ width="14.7%" }
+
 The PCB in the Citizen U0DA-07A appears to have the part number C70-1070.
+
+The drive is a "Slim" 3.5" drive, measuring around 19.5mm x 101.5mm x 134mm.
 
 ### Components
 
@@ -55,3 +59,7 @@ The PCB in the Citizen U0DA-07A appears to have the part number C70-1070.
 | | Hex Inverter | 74HC14 |
 | | Dual D-type Flip-flop | 74HCT74 |
 | | Capacitor, Electrolytic Axial | 68uF 10V |
+
+## External Floppy
+
+An external floppy drive option was also available which utilized the Outbound's "host" port.
