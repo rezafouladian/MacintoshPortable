@@ -1,4 +1,10 @@
+# Outbound Floppy Drives
 
+The Outbound 125 supported either an internal floppy drive or an internal hard drive. You could only have one or the other, and the EEPROM only included code for one at a time.
+
+There was also an external floppy drive available that connected using the host connector, and when using the host cable with a Macintosh Plus or Macintosh SE you could utilize the internal floppy drive there.
+
+The internal floppy drive version of the EEPROM included a driver called `.Super` to add support for the drive to the system.
 
 ## Internal Floppy
 
