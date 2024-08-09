@@ -22,6 +22,7 @@ nav:
   - Outbound Laptop:
     - Home: outbound/index.md
     - Floppy Drive: outbound/Floppy.md
+    - Hard Drive: outbound/HardDrive.md
     - ROM Patches: outbound/ROMPatches.md
     - Keyboard: outbound/Keyboard.md
 theme:
