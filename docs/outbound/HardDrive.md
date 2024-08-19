@@ -5,3 +5,5 @@ The Outbound 125 supported either an internal floppy drive or an internal hard d
 These appear to have been PrarieTek 2.5" hard drives.
 
 The hard drive version of the EEPROM included a driver called `.PTek` to add support for the drive to the system.
+
+The hard drive connector is a 44-pin, 2.54mm pitch connector with a pinout similar to IDE.
