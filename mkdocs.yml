@@ -26,6 +26,7 @@ nav:
     - ROM Patches: outbound/ROMPatches.md
     - Keyboard: outbound/Keyboard.md
     - Logic Board: outbound/LogicBoard.md
+    - Misc: outbound/Misc.md
 theme:
   name: material
   palette:
