@@ -120,7 +120,7 @@ This expansion system allowed the Portable to be "docked" and connected to an ex
 
 Alternate Name: Apple Macintosh Portable 日本語アップグレードキット
 
-The contents of this kit are unknown.
+The contents of this kit are unknown. It's possible it may have contained a [Japanese Keyboard](Components.md#macintosh-portable-japanese-keyboard).
 
 ### Creative Solutions ROM Expansion Card
 
