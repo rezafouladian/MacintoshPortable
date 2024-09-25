@@ -58,6 +58,11 @@ Data bit 6 is marked as failed.
 The upper 8 bits on the data bus (bits 8-15) are marked as failed. It's likely one or more RAM chips on the upper byte are failed, or a chip select line is disconnected.
 
 ### 05 - Address Line Test
+Writes to RAM at each address line boundary to test individual address lines.  
+If the data it reads back does not match what was written, the exclusive-OR result will be returned in the minor error register.
+
+The test writes the the address location to each address, for example it will write `0x10` to address `0x10`, `0x20` to address `0x20`, and so on.
+
 This is test [*T 3](TestManager.md#test-3-address-line-test) when run from the [Test Manager](TestManager.md).
 
 **Example error:**
