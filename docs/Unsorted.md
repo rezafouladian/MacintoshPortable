@@ -15,3 +15,8 @@ The Powerbook 100 ROM is identical to the ROM used in the Macintosh Portable M51
 - Replaced the 32 SRAM chips with 8 PSRAM chips
 - Additional logic to generate a faster <span style="text-decoration:overline">DTACK</span> signal for the RAM as well as a refresh signal
 - Minor changes to sound circuitry
+
+## Other Early Portable Mac Clones
+
+- M' TOP
+- Outbound Laptop
