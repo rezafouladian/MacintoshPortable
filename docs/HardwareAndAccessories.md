@@ -35,6 +35,10 @@ Model: KTA-1000/MP (1MB), KTA-3000/MP or KTA-4000/MP (4MB)
 
 The same board is used for the 1MB, 3MB, and 4MB variants.
 
+#### Shadow PortaRam
+
+A 1MB RAM card that could be upgraded all the way to 8MB with stacking modules.
+
 ### PDS RAM Cards
 
 #### PSI
