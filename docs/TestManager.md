@@ -1,4 +1,5 @@
-To enter the test manager, you can ground the VIA_TEST line located at pin 7 of the J22 edge connector. This must be done at boot before the cursor appears.
+To enter the test manager, you can ground the VIA_TEST line located at pin 7 of the J22 edge connector. This must be done at boot before the cursor appears.  
+You also should be able to press the interrupt button to cause a "sad mac" to display and start the test manager, though it will go to sleep after some time unless you [turn off sleep](#7---prevent-sleep).
 
 Connect a serial cable to the Modem port on the Portable.
 
