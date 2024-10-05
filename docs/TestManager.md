@@ -31,11 +31,26 @@ Load a value into data register D4, for use in other commands such as `*D` or `*
 
 Input: 2 Bytes
 
+Example Usage:
+```
+*B101F
+```
+Sets the byte count to `0x101F` bytes.
+
 ### *D - Get Data
 
 Load data from the serial input at location A4, for a length of D4 bytes.
 
 A checksum is placed in result register D6.
+
+Example Usage:
+```
+*L00104000
+*B00FF
+*D
+[Input Data]
+```
+Write data from serial input for `0xFF` bytes to memory starting at location `0x104000`.
 
 ### *C - Checksum
 
@@ -53,6 +68,7 @@ Example Usage:
 ```
 *G00900058
 ```
+Run code starting at memory location `0x900058`.
 
 ### *0 - Load A0
 
