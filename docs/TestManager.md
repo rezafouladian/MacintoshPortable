@@ -317,3 +317,7 @@ Run the test:
 Once the test is finished, you should be returned to the debugger.  
 You can now display the result from the appropriate register:  
 `D6` 
+
+## Unimplemented Commands
+
+Commands such as `*U`, `*W`, `*Q`, `*1`, and `*2` are valid Test Manager options but they are not implemented in the Portable's Test Manager, so they do nothing.
