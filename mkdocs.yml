@@ -10,6 +10,9 @@ nav:
     - Display: 
       - Display Testing: DisplayTesting.md
   - Docs: 
+    - Hardware:
+      - Display Interface: DisplayInterface.md
+      - Hybrid: Hybrid.md
     - Components: Components.md
     - Memory Map: MemoryMap.md
     - Signal Descriptions: SignalDescriptions.md
