@@ -5,12 +5,15 @@
 | D0:7 | 8-bit parallel video data bus. Each bit represents one pixel. | Internal & External |
 | M | New frame clock (FLM) divided by 2. Approximately 30Hz. | Internal |
 | CL1 | End of line clock. Marks the end of a 80 byte/640 pixel line. | Internal |
-| CL2 | Video byte clock. | Internal & External |
+| CL2 | Video byte clock. Signals that a new 8 bits of video data is available. | Internal & External |
 | FLM | New frame clock. Approximately 60Hz. | Internal & External |
 | Contrast | Contrast potentiometer control. | Internal (M5120 Only) |
 | Brightness | Brightness potentiometer control. | Internal (M5126 Only) |
+| Battery Voltage | For monitoring the battery voltage. | External |
 
 Pixels are sent in a "Most Significant Bit" first order on the 8-bit parallel bus. In a line of 8 pixels, bit 7 is the leftmost pixel and bit 0 is the rightmost.
+
+## Connector Pinouts
 
 ### M5120 Internal Connector Pinout: 
 
@@ -83,5 +86,21 @@ Pixels are sent in a "Most Significant Bit" first order on the 8-bit parallel bu
 | 33 | 
 | 34 | 
 
-
-
+### External Video Connector
+| Pin | Description |
+| --- | --- |
+| 1 | D0 |
+| 2 | D1 |
+| 3 | VCC |
+| 4 | D2 |
+| 5 | D3 |
+| 6 | D4 |
+| 7 | GND |
+| 8 | VCC |
+| 9 | GND |
+| 10 | D5 |
+| 11 | D6 |
+| 12 | D7 |
+| 13 | Battery Voltage |
+| 14 | FLM |
+| 15 | CL2 |
