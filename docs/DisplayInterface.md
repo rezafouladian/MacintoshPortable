@@ -3,10 +3,11 @@
 | Signal | Description | Availability |
 | --- | --- | --- |
 | D0:7 | 8-bit parallel video data bus. Each bit represents one pixel. | Internal & External |
-| M | New frame clock (FLM) divided by 2. Approximately 30Hz. | Internal |
+| M | New frame clock (FLM) divided by 2. Prevents ghosting by switching LCD polarity. Approximately 30Hz. | Internal |
 | CL1 | End of line clock. Marks the end of a 80 byte/640 pixel line. | Internal |
 | CL2 | Video byte clock. Signals that a new 8 bits of video data is available. | Internal & External |
 | FLM | New frame clock. Approximately 60Hz. | Internal & External |
+| <span style="text-decoration:overline">DISP_BLANK</span> | Turns off the display. | Internal |
 | Contrast | Contrast potentiometer control. | Internal (M5120 Only) |
 | Brightness | Brightness potentiometer control. | Internal (M5126 Only) |
 | Battery Voltage | For monitoring the battery voltage. | External |
@@ -53,30 +54,30 @@ Pixels are sent in a "Most Significant Bit" first order on the 8-bit parallel bu
 | --- | --- |
 | 1 | D7 |
 | 2 | D6 |
-| 3 |
+| 3 | GND |
 | 4 | D5 |
 | 5 | D4 |
-| 6 |
+| 6 | GND |
 | 7 | D3 |
 | 8 | D2 |
-| 9 |
+| 9 | GND |
 | 10 | D1 |
 | 11 | D0 |
-| 12 |
+| 12 | GND |
 | 13 | CL2 |
 | 14 | CL1 |
-| 15 | |
+| 15 | GND |
 | 16 | FLM |
 | 17 | M |
-| 18 | |
+| 18 | GND |
 | 19 | |
 | 20 | |
 | 21 | <span style="text-decoration:overline">DISP_BLANK</span> |
 | 22 | 
 | 23 | 
-| 24 | 
-| 25 | 
-| 26 | 
+| 24 | GND |
+| 25 | GND |
+| 26 | GND |
 | 27 | Brightness |
 | 28 | 
 | 29 | 
