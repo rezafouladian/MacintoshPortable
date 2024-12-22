@@ -1,5 +1,5 @@
 
-
+## Signal Descriptions
 | Signal | Description | Availability |
 | --- | --- | --- |
 | D0:7 | 8-bit parallel video data bus. Each bit represents one pixel. | Internal & External |
@@ -13,6 +13,9 @@
 | Battery Voltage | For monitoring the battery voltage. | External |
 
 Pixels are sent in a "Most Significant Bit" first order on the 8-bit parallel bus. In a line of 8 pixels, bit 7 is the leftmost pixel and bit 0 is the rightmost.
+
+## Examples
+![](media/displaydata.svg)
 
 ## Connector Pinouts
 
