@@ -1,6 +1,6 @@
 # Temporary Home Page
 
-TODO: Nice image of the Macintosh Portable here.
+![](media/portable.jpg)
 
 This site is still a work in progress, so many things are incomplete or in the wrong place.
 
