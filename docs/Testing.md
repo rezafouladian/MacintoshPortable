@@ -1,10 +1,16 @@
-# Test Setup
+# Testing and Troubleshooting Guide
 
-## Powering the Logic Board
+## Test Setup
 
-# Powered Off Testing
+### Powering the Logic Board
 
-## Always-on +5V
+#### Using the 4-pin connector
+
+#### Through the battery box
+
+## Powered Off Testing
+
+### Always-on +5V
 
 There are many places to check the always-on +5V from, such as:
 
@@ -17,29 +23,33 @@ Here is an image highlighting those points:
 
 ![](media/5VPoints.jpg){ width="160px" }
 
-## Battery Level (A/D)
+The +5V is typically around 5.2V, but anywhere between 5.0-5.3V should probably be fine.
 
-# Powered On Testing
+### Battery Level (A/D)
 
-## Powered-on +5V
+## Powered On Testing
 
-## +12V
+### Powered-on +5V
 
-# Troubleshooting
+### +12V
 
-## Always-on +5V Troubleshooting
+### -5V
 
-### No voltage
+## Troubleshooting
+
+### Always-on +5V Troubleshooting
+
+#### No voltage
 
 1. Check Fuse
 
 1. Low Voltage Comparator
 
-### Incorrect voltage
+#### Incorrect voltage
 
 1. Check 1.2V Reference
 
-## 1.2V Reference Troubleshooting
+### 1.2V Reference Troubleshooting
 
 The 1.2V reference provides a reference voltage for several key parts of voltage regulation.
 
@@ -56,4 +66,4 @@ Here is an image highlighting current supply path for the reference. Highlighted
 If you believe the reference is not getting enough current, you can try adding a resistor (recommended size between 100kΩ and 200kΩ) to supply more current.  
 Be careful not to supply too much current, as the reference will have to dissipate that as heat.
 
-## Low Voltage Comparator Troubleshooting
+### Low Voltage Comparator Troubleshooting
