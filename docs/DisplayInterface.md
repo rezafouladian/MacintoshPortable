@@ -4,10 +4,10 @@
 | --- | --- | --- |
 | D0:7 | 8-bit parallel video data bus. Each bit represents one pixel. | Internal & External |
 | M | New frame clock (FLM) divided by 2. Prevents ghosting by switching LCD polarity. Approximately 30Hz. | Internal |
-| CL1 | End of line clock. Marks the end of a 80 byte/640 pixel line. | Internal |
+| CL1 | End of line clock. Marks the end of a 80 byte/640 pixel line. (Horizontal Sync) | Internal |
 | CL2 | Video byte clock. Signals that a new 8 bits of video data is available. | Internal & External |
-| FLM | New frame clock. Approximately 60Hz. | Internal & External |
-| <span style="text-decoration:overline">DISP_BLANK</span> | Turns off the display. | Internal |
+| FLM | New frame clock. Approximately 60Hz. (Vertical Sync) | Internal & External |
+| <span style="text-decoration:overline">DISP_BLANK</span> | Turns off the display.  | Internal |
 | Contrast | Contrast potentiometer control. | Internal (M5120 Only) |
 | Brightness | Brightness potentiometer control. | Internal (M5126 Only) |
 | Battery Voltage | For monitoring the battery voltage. | External |

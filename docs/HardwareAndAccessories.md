@@ -41,6 +41,10 @@ A 1MB RAM card that could be upgraded all the way to 8MB with stacking modules.
 
 ### PDS RAM Cards
 
+#### New NoBL PDS Card
+
+Coming Soon
+
 #### PSI
 
 This card is expandable up to 8MB using stacking add-on boards.
@@ -100,6 +104,10 @@ Coming soon
 ### Xecom NewPort MP FAX/Data
 
 ## Other Hardware
+
+### 3D Printed Battery Case
+
+A 3D printed battery case designed to fit a 6V LiFePO4 battery.
 
 ### Androda's Macintosh Portable Battery Eliminator
 
