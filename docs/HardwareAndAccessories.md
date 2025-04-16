@@ -25,6 +25,10 @@ This card was expandable up to 8MB in size using 1MB SIPP SRAM modules.
 
 This 4MB card uses DRAM rather than SRAM or PSRAM.
 
+#### New Portable RAM Card
+
+Coming Soon
+
 #### MacEffects 8MB RAM Card
 
 [https://maceffects.com/products/8mb-memory-upgrade-for-macintosh-portable-m5120-m5126](https://maceffects.com/products/8mb-memory-upgrade-for-macintosh-portable-m5120-m5126)
@@ -119,10 +123,14 @@ A 3D printed battery case designed to fit a 6V LiFePO4 battery.
 
 ### Apple ROM Card AP1234-02
 
+A ROM card used by Apple during early testing of the Portable.
+
 ### Second Wave ExpanSE Home BaSE
 ![The ExpanSE Home BaSE connected to a Macintosh Portable](media/expanse_homebase.jpg){ width="15%" }
 
 This expansion system allowed the Portable to be "docked" and connected to an external chassis containing two SE PDS slots.
+
+It used a PDS card installed in the Portable to connect the Portable's PDS bus to the expansion chassis.
 
 ### Apple Battery Charger
 

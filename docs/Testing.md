@@ -67,3 +67,9 @@ If you believe the reference is not getting enough current, you can try adding a
 Be careful not to supply too much current, as the reference will have to dissipate that as heat.
 
 ### Low Voltage Comparator Troubleshooting
+
+### A/D Battery Meter Troubleshooting
+
+### Display Troubleshooting
+
+#### Missing Lines
