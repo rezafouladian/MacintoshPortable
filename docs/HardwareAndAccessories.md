@@ -25,9 +25,11 @@ This card was expandable up to 8MB in size using 1MB SIPP SRAM modules.
 
 This 4MB card uses DRAM rather than SRAM or PSRAM.
 
-#### New Portable RAM Card
+#### New Portable RAM Card BGA
 
-Coming Soon
+A newly designed 8MB RAM card.
+
+[https://github.com/rezafouladian/PortableRAM-BGA-8MB](https://github.com/rezafouladian/PortableRAM-BGA-8MB)
 
 #### MacEffects 8MB RAM Card
 
