@@ -47,7 +47,7 @@ A 1MB RAM card that could be upgraded all the way to 8MB with stacking modules.
 
 #### New NoBL PDS Card
 
-A PDS RAM card with 8MB of Cypress NoBL SRAM and space for 1MB of ROM.
+A newly designed PDS RAM card with 8MB of Cypress NoBL™ SRAM and space for 1MB of ROM.
 
 The entire 8MB range of RAM runs at zero wait states, system performance is dramatically improved over regular RAM cards.
 
@@ -58,6 +58,8 @@ The entire 8MB range of RAM runs at zero wait states, system performance is dram
 This card is expandable up to 8MB using stacking add-on boards.
 
 ## Video Adapters
+
+### Androda's Macintosh Portable Video Adapter
 
 ### Apple Macintosh Portable Video Adapter (Cancelled)
 
@@ -86,6 +88,8 @@ Coming soon
 ## Storage
 
 ### MicroNet Pi-40p and Pi-80p
+
+Internal drive replacements for the Macintosh Portable, in 40MB and 80MB sizes.
 
 ## Modems
 
@@ -123,7 +127,11 @@ A 3D printed battery case designed to fit a 6V LiFePO4 battery.
 
 ### Apple Numpad Module
 
+The number pad module that can be installed instead of the trackball.
+
 ### Apple Backlight Upgrade
+
+A kit sold by Apple to upgrade a regualar Portable with a backlit display. It included a replacement display along with a card for the ROM slot.
 
 ### Apple ROM Card AP1234-02
 
@@ -135,6 +143,13 @@ A ROM card used by Apple during early testing of the Portable.
 This expansion system allowed the Portable to be "docked" and connected to an external chassis containing two SE PDS slots.
 
 It used a PDS card installed in the Portable to connect the Portable's PDS bus to the expansion chassis.
+
+From BYTE magazine's November 1990 issue:
+> If you want to use a large-screen monochrome monitor with the Mac Portable, or connect the Portable to a mainframe computer system, you can use Second Wave's ExpanSE Home BaSE, a two-slot Mac SE card chassis.  
+> The chassis serves as a base station for the Mac Portable, housing two standard Mac SE 68000 Processor Direct Slot cards. The Portable sits on top of and connects to the chassis through an included interface card and two cable assemblies.  
+> Price: $995 
+
+In the December 1990 issue of MacWorld, a seller listed the price as $895.
 
 ### Apple Battery Charger
 
