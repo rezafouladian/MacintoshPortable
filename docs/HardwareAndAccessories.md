@@ -10,6 +10,8 @@ This 7MB RAM card is a modern design using PSRAM.
 
 #### Apple 1MB SRAM 630-4176
 
+Apple's 1MB RAM card commonly found with the Model M5120 Macintosh Portable.
+
 #### Apple PSRAM 1MB/3MB 820-0662-01
 
 This card was most commonly found with the Model M5126 Backlit Macintosh Portable.
@@ -98,6 +100,8 @@ Coming soon
 
 Internal drive replacements for the Macintosh Portable, in 40MB and 80MB sizes.
 
+An external version that could be powered by the Portable was also available.
+
 ## Modems
 
 ### Apple Portable Data Modem 2400 630-4175
@@ -174,6 +178,8 @@ The contents of this kit are unknown. It's possible it may have contained a [Jap
 This added a touch screen to the Macintosh Portable.
 
 ### Lind Electronic Design External Battery Charger
+
+A Portable external battery charger and storage case which can be charged using either the Portable's 7.5V power adapter or a 12V car power adapter.
 
 ### "Debug ROM Card" (WIP)
 
