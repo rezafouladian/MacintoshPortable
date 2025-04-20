@@ -71,6 +71,9 @@ This card is expandable up to 8MB using stacking add-on boards.
 
 The codename for this adapter or video output capability on the Portable appears to have been "Topanga".
 
+The adapter included control panel software for switching display output modes depending on if you are connecting to a CRT or composite video.  
+While the adapter itself has switches to change modes, the Portable cannot see what the switches are set to, so changing display modes in the control panel and rebooting is required.
+
 ### Computer Care VideoMacPac
 The VideoMacPac was a video card that went in the PDS slot and allowed a second screen, unlike the regular video output on the Portable that mirrored the internal display.
 
