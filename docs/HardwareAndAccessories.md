@@ -49,6 +49,8 @@ A 1MB RAM card that could be upgraded all the way to 8MB with stacking modules.
 
 #### New NoBL PDS Card
 
+![](media/pdsram1.jpg){ width="160px" }
+
 A newly designed PDS RAM card with 8MB of Cypress NoBL™ SRAM and space for 1MB of ROM.
 
 The entire 8MB range of RAM runs at zero wait states, system performance is dramatically improved over regular RAM cards.
