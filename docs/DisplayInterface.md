@@ -82,7 +82,7 @@ Pixels are sent in a "Most Significant Bit" first order on the 8-bit parallel bu
 | 25 | GND |
 | 26 | GND |
 | 27 | Brightness |
-| 28 | 
+| 28 | Brightness 2 |
 | 29 | 
 | 30 | 
 | 31 | VCC |
