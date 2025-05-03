@@ -10,7 +10,7 @@
 | F8 0000 | F8 FFFF | [ROM Diagnostics](#rom-diagnostics) |
 | F7 0000 | F7 FFFF | [VIA](#via) |
 | F6 0000 | F6 FFFF | [SWIM](#swim) |
-| F0 0000 | F5 FFFF | [Reserved (Unknown)](#reserved-unknown) |
+| F0 0000 | F5 FFFF | [Reserved](#reserved) |
 | E0 0000 | EF FFFF | [PDS ROM](#pds-rom) |
 | A0 0000 | DF FFFF | [Expansion ROM](#expansion-rom) |
 | 90 0000 | 9F FFFF | [Permanent ROM](#permanent-rom) |
@@ -72,7 +72,7 @@ Size: 4MB
 Address Space: 0xE00000-0xEFFFFF  
 Size: 1MB
 
-## Reserved (Unknown)
+## Reserved
 
 Address Space: 0xF00000-0xF5FFFF
 
