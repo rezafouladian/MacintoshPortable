@@ -20,3 +20,6 @@ The Powerbook 100 ROM is identical to the ROM used in the Macintosh Portable M51
 
 - M' TOP
 - Outbound Laptop
+
+## Does the Portable supply SCSI termination power on the external connector?
+No, similar to the Macintosh Plus, the Macintosh Portable does not supply termination power to the external DB-25 SCSI connector.
