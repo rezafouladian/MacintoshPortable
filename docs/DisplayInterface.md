@@ -12,7 +12,7 @@
 | Brightness | Brightness potentiometer control. | Internal (M5126 Only) |
 | Battery Voltage | For monitoring the battery voltage. | External |
 | BAT+_D | Battery voltage supply for backlight | Internal (M5126 Only) |
-| VCC | "Powered-on" +5V supply | Internal |
+| VCC | "Powered-on" +5V supply | Internal and External |
 
 Pixels are sent in a "Most Significant Bit" first order on the 8-bit parallel bus. In a line of 8 pixels, bit 7 is the leftmost pixel and bit 0 is the rightmost.
 
