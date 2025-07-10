@@ -51,13 +51,13 @@ Pixels are sent in a "Most Significant Bit" first order on the 8-bit parallel bu
 | 13 | CL2 | | 14 | CL1 |
 | 15 | GND | | 16 | FLM |
 | 17 | M | | 18 | GND |
-| 19 | | | 20 | |
-| 21 | <span style="text-decoration:overline">DISP_BLANK</span> | | 22 | |
+| 19 | +5V | | 20 | +5V |
+| 21 | <span style="text-decoration:overline">DISP_BLANK</span> | | 22 | +5V |
 | 23 | | | 24 | GND |
 | 25 | GND | | 26 | GND |
 | 27 | Brightness | | 28 | Brightness 2 |
-| 29 | | | 30 | |
-| 31 | VCC | | 32 | VCC |
+| 29 | +5V | | 30 | |
+| 31 | BAT+_D | | 32 | BAT+_D |
 | 33 | | | 34 | |
 
 ### External Video Connector
